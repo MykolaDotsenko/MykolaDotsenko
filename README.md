@@ -8,8 +8,11 @@ Highly motivated, self-driven, result-oriented and eager for new knowledge. High
 
 🔧 Skills
 Languages & Frameworks: HTML, CSS, JavaScript, React, TypeScript, Next.js
+
 Tools & Technologies: Git, GitHub, BitBucket, Docker, AWS, Figma, Tailwind CSS
+
 Methodologies: Agile, Scrum, Test-Driven Development (TDD)
+
 Other Skills: JavaScript Testing (JEST), SEO, Finnish (A2.2 level), English
 
 
