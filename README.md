@@ -1,6 +1,6 @@
    Welcome to My GitHub Profile! 👋
    
-Hello! I'm Mykola, a passionate and dedicated Junior Front-End/Software Developer on an exciting journey in the world of web development. 🚀
+Hello! I'm Mykola, a passionate and dedicated Front-End/Software Developer on an exciting journey in the world of web development. 🚀
 
 
 🌟 About Me
@@ -13,11 +13,9 @@ Highly motivated, self-driven, result-oriented and eager for new knowledge. High
 
    -Languages & Frameworks: HTML, CSS, JavaScript, React, TypeScript, Next.js
 
-   -Tools & Technologies: Git, GitHub, BitBucket, Docker, AWS, Figma, Tailwind CSS
+   -Tools & Technologies: Git, GitHub, BitBucket, Docker, AWS, Figma, Tailwind CSS, JEST.
 
    -Methodologies: Agile, Scrum, Test-Driven Development (TDD)
-
-   -Other Skills: JavaScript Testing (JEST), SEO, Finnish (A2.2 level), English
 
 
 
@@ -25,7 +23,7 @@ Highly motivated, self-driven, result-oriented and eager for new knowledge. High
 
    -Frontend Developer Trainee
 BearIT Oy
-March 2024 - Present | Tampere, Finland (Hybrid)
+March 2024 - Present | Tampere, Finland
 Training in Agile, Scrum, Figma, React, TypeScript, Next.js, AWS, SQL, and AI concepts.
 Finnish language lessons tailored for professional use.
 Career coaching and active participation in real-world projects.
