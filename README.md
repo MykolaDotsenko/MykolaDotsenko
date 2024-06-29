@@ -21,6 +21,7 @@ Highly motivated, self-driven, result-oriented and eager for new knowledge. High
 
 
 💼 Experience
+
    -Frontend Developer Trainee
 BearIT Oy
 March 2024 - Present | Tampere, Finland (Hybrid)
