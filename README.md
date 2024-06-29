@@ -10,18 +10,18 @@ Highly motivated, self-driven, result-oriented and eager for new knowledge. High
 
 
 🔧 Skills
-Languages & Frameworks: HTML, CSS, JavaScript, React, TypeScript, Next.js
+   -Languages & Frameworks: HTML, CSS, JavaScript, React, TypeScript, Next.js
 
-Tools & Technologies: Git, GitHub, BitBucket, Docker, AWS, Figma, Tailwind CSS
+   -Tools & Technologies: Git, GitHub, BitBucket, Docker, AWS, Figma, Tailwind CSS
 
-Methodologies: Agile, Scrum, Test-Driven Development (TDD)
+   -Methodologies: Agile, Scrum, Test-Driven Development (TDD)
 
-Other Skills: JavaScript Testing (JEST), SEO, Finnish (A2.2 level), English
+   -Other Skills: JavaScript Testing (JEST), SEO, Finnish (A2.2 level), English
 
 
 
 💼 Experience
-Frontend Developer Trainee
+   -Frontend Developer Trainee
 BearIT Oy
 March 2024 - Present | Tampere, Finland (Hybrid)
 Training in Agile, Scrum, Figma, React, TypeScript, Next.js, AWS, SQL, and AI concepts.
@@ -29,7 +29,7 @@ Finnish language lessons tailored for professional use.
 Career coaching and active participation in real-world projects.
 
 
-Frontend Developer (Freelance)
+   -Frontend Developer (Freelance)
 Upwork
 July 2023 - March 2024 | Remote
 Developed user-friendly websites with HTML, CSS, JavaScript, and React.
@@ -37,7 +37,7 @@ Worked on real projects under the guidance of a senior mentor.
 Leveraged AI to enhance code writing efficiency.
 
 
-Full-Stack Engineer (Remote Study)
+   -Full-Stack Engineer (Remote Study)
 Codecademy
 November 2023 - Present
 Comprehensive training covering HTML, CSS, JavaScript, Git, React, Redux.js, TypeScript, Node.js, SQL, and Express.js.
