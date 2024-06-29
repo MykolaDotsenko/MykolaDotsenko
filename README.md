@@ -4,6 +4,7 @@ Hello! I'm Mykola, a passionate and dedicated Junior Front-End/Software Develope
 
 
 🌟 About Me
+
 🌱 With a background in accounting and sales, I've transitioned into the dynamic world of web development. I'm fully committed to creating engaging and efficient web applications using modern technologies.
 Highly motivated, self-driven, result-oriented and eager for new knowledge. High ability to multitask, excellent organizational and time management skills. Good team player as well as can work by myself. Adept at problem-solving through both inductive and deductive methods.
 
