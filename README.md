@@ -19,28 +19,6 @@ Highly motivated, self-driven, result-oriented and eager for new knowledge. High
 
 
 
-💼 Experience
-
-   -Frontend Developer Trainee
-BearIT Oy
-March 2024 - Present | Tampere, Finland
-Training in Agile, Scrum, Figma, React, TypeScript, Next.js, AWS, SQL, and AI concepts.
-Finnish language lessons tailored for professional use.
-Career coaching and active participation in real-world projects.
-
-
-   -Frontend Developer (Freelance)
-Upwork
-July 2023 - March 2024 | Remote
-Developed user-friendly websites with HTML, CSS, JavaScript, and React.
-Worked on real projects under the guidance of a senior mentor.
-Leveraged AI to enhance code writing efficiency.
-
-
-   -Full-Stack Engineer (Remote Study)
-Codecademy
-November 2023 - Present
-Comprehensive training covering HTML, CSS, JavaScript, Git, React, Redux.js, TypeScript, Node.js, SQL, and Express.js.
 
 
 ### 🤝 Socials:
