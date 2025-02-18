@@ -24,7 +24,7 @@ Highly motivated, self-driven, result-oriented and eager for new knowledge. High
 ### 🤝 Socials:
 
   <div id="badges">
-    <a href="https://www.linkedin.com/in/mykola-dot" target="_blank">
+    <a href="https://www.linkedin.com/in/mykola-dotsenko/" target="_blank">
       <img src="https://cdn-icons-png.flaticon.com/512/2504/2504799.png" width="40" height="40" alt="linkedin" />
     </a>
 
