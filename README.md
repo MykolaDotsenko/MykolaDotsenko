@@ -1,6 +1,6 @@
    Welcome to My GitHub Profile! 👋
    
-Hello! I'm Mykola, a passionate and dedicated Front-End/Software Developer on an exciting journey in the world of web development. 🚀
+Hello! I'm Mykola, a passionate and dedicated Software Developer on an exciting journey in the world of web development. 🚀
 
 
 🌟 About Me
