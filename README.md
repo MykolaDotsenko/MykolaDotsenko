@@ -3,20 +3,24 @@
 Hello! I'm Mykola, a passionate and dedicated Software Developer on an exciting journey in the world of development. 🚀
 
 
-🌟 About Me
+I’m a Full-Stack Software developer based in Finland, focused on building reliable web products with a strong emphasis on performance, data consistency, and long-term maintainability.
 
-🌱 With a background in accounting and sales, I've transitioned into the dynamic world of web development. I'm fully committed to creating engaging and efficient web applications using modern technologies.
-Highly motivated, self-driven, result-oriented and eager for new knowledge. High ability to multitask, excellent organizational and time management skills. Good team player as well as can work by myself. Adept at problem-solving through both inductive and deductive methods.
+I enjoy taking ownership of features, improving responsiveness of data-heavy functionality, and keeping business data accurate through integrations and validation flows. I care about pragmatic delivery, maintainable code, and quality practices like automated testing and clean workflows.
+
+Before switching to software development, I gained practical experience in Agronomy, Sales, and Accounting, and I hold two Master’s degrees. That path shaped my structured, ownership-driven approach and my ability to translate business needs into clear technical solutions.
+
+AI is a hobby for me, I like applied experiments with modern AI tools and search ideas.
+
+🏡 Outside of work, I’m a family man and father to a little princess. I love nature and travel, and I’m passionate about photography (manual shooting with different lenses). I also enjoy fishing, motorcycle rides, and good old rock music.
 
 
 🔧 Skills
 
-   -Languages & Frameworks: HTML, CSS, JavaScript, React, TypeScript, Next.js
+   -Languages & Frameworks: HTML, CSS, JavaScript, React, TypeScript, Next.js, Python, Django
 
    -Tools & Technologies: Git, GitHub, BitBucket, Docker, AWS, Figma, Tailwind CSS, JEST.
 
    -Methodologies: Agile, Scrum, Test-Driven Development (TDD)
-
 
 
 
