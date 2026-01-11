@@ -1,9 +1,7 @@
    Welcome to My GitHub Profile! 👋
    
-Hello! I'm Mykola, a passionate and dedicated Software Developer on an exciting journey in the world of development. 🚀
+Hello! I'm Mykola, a passionate and dedicated Full-Stack Software developer based in Finland, focused on building reliable web products with a strong emphasis on performance, data consistency, and long-term maintainability. 🚀
 
-
-I’m a Full-Stack Software developer based in Finland, focused on building reliable web products with a strong emphasis on performance, data consistency, and long-term maintainability.
 
 I enjoy taking ownership of features, improving responsiveness of data-heavy functionality, and keeping business data accurate through integrations and validation flows. I care about pragmatic delivery, maintainable code, and quality practices like automated testing and clean workflows.
 
