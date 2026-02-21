@@ -4,21 +4,6 @@
 **Python / Django + React / Next.js + PostgreSQL**  
 Focused on building reliable web products with strong performance, data consistency, and long-term maintainability.
 
-<!-- GitHub badges -->
-<p>
-  <img src="https://komarev.com/ghpvc/?username=MykolaDotsenko&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
-  <img src="https://img.shields.io/badge/Open%20to%20Work-Yes-brightgreen" alt="Open to Work" />
-  <img src="https://img.shields.io/badge/Location-Finland%20(Turku)-blue" alt="Location Finland Turku" />
-</p>
-
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=MykolaDotsenko&show_icons=true&hide_title=true" alt="GitHub stats" />
-</p>
-
-<p>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MykolaDotsenko&layout=compact" alt="Top languages" />
-</p>
-
 ---
 
 ## 🚀 About me
@@ -87,20 +72,17 @@ I also enjoy applied AI experiments for development workflows, automation, and p
 ### 🎬 Movies Manager
 Full-stack movie management app with Angular + ASP.NET Core, JWT auth, SQL Server, Swagger, Azure deployment, and geospatial features.
 
-**Tech:** Angular, TypeScript, ASP.NET Core, EF Core, SQL Server, JWT, Azure, Leaflet  
-**Repo:** [MoviesManager](https://github.com/MykolaDotsenko/MoviesManager)
+**Tech:** Angular, TypeScript, ASP.NET Core, EF Core, SQL Server, JWT, Azure, Leaflet
 
 ### 🏠 Property Pulse
 Property rental web app with listings, image uploads, authentication, messaging, and map features.
 
-**Tech:** Next.js, React, Tailwind CSS, MongoDB, Cloudinary, Mapbox  
-**Repo:** [property-pulse](https://github.com/MykolaDotsenko/property-pulse)
+**Tech:** Next.js, React, Tailwind CSS, MongoDB, Cloudinary, Mapbox
 
 ### 🎞️ MovieDux
 Movie-focused frontend project for browsing and managing movie-related content.
 
-**Tech:** React, JavaScript  
-**Repo:** [moviedux](https://github.com/MykolaDotsenko/moviedux)
+**Tech:** React, JavaScript
 
 ---
 
@@ -117,7 +99,7 @@ Movie-focused frontend project for browsing and managing movie-related content.
 
 ---
 
-## 💻 My stack
+## 💻 My stack 
 
 <div>
   <!-- Backend -->
@@ -179,10 +161,6 @@ Movie-focused frontend project for browsing and managing movie-related content.
     <img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg" alt="MongoDB" height="50" />
   </a>
 </div>
-
----
-
-<img style="margin: 10px" src="https://media.proglib.io/posts/2019/09/23/862c8794e054ab2407425c117e8a0bd5.jpg" alt="Skills" />
 
 ---
 
