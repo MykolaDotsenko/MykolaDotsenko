@@ -1,60 +1,83 @@
-   Welcome to My GitHub Profile! 👋
-   
-Hello! I'm Mykola, a passionate and dedicated Full-Stack Software developer based in Finland, focused on building reliable web products with a strong emphasis on performance, data consistency, and long-term maintainability. 🚀
+# Hi, I'm Mykola👋
 
+**Full-Stack Software Developer** based in Finland (Turku)  
+**Python / Django + React / Next.js + PostgreSQL**  
+Focused on building reliable web products with strong performance, data consistency, and long-term maintainability.
 
-I enjoy taking ownership of features, improving responsiveness of data-heavy functionality, and keeping business data accurate through integrations and validation flows. I care about pragmatic delivery, maintainable code, and quality practices like automated testing and clean workflows.
+## About me
 
-Before switching to software development, I gained practical experience in Agronomy, Sales, and Accounting, and I hold two Master’s degrees. That path shaped my structured, ownership-driven approach and my ability to translate business needs into clear technical solutions.
+I build and improve web applications with a practical, product-oriented mindset.  
+My current work includes data-heavy features, integrations, validation flows, and performance optimization.
 
-AI is a hobby for me, I like applied experiments with modern AI tools and search ideas.
+Before switching to software development, I worked in Agronomy, Sales, and Accounting. That background shaped my structured, ownership-driven approach and helps me translate business needs into clear technical solutions.
 
-🏡 Outside of work, I’m a family man and father to a little princess. I love nature and travel, and I’m passionate about photography (manual shooting with different lenses). I also enjoy fishing, motorcycle rides, and good old rock music.
+I also enjoy applied AI experiments for development workflows, automation, and productivity.
 
+## What I’m working on
 
-🔧 Skills
+- Building and maintaining search, filtering, listing, and detail views in production web apps
+- Improving performance (ORM optimization, caching, N+1 fixes)
+- Implementing integrations and validation pipelines to keep business data consistent
+- Strengthening reliability with automated tests, type hints, and static analysis
 
-   -Languages & Frameworks: HTML, CSS, JavaScript, React, TypeScript, Next.js, Python, Django
+## Tech stack
 
-   -Tools & Technologies: Git, GitHub, BitBucket, Docker, AWS, Figma, Tailwind CSS, JEST.
+### Backend
+- Python
+- Django
+- Django REST Framework
+- Wagtail
+- PostgreSQL / SQL
 
-   -Methodologies: Agile, Scrum, Test-Driven Development (TDD)
+### Frontend
+- React
+- Next.js
+- TypeScript
+- HTMX
+- HTML / CSS
 
+### Tools & Practices
+- Git / GitHub
+- Docker
+- Postman
+- Playwright
+- Ruff / mypy
+- Agile / Scrum
 
+## Featured projects
 
+### 🎬 Movies Manager
+Full-stack movie management app with Angular + ASP.NET Core, JWT auth, SQL Server, Swagger, Azure deployment, and geospatial features.
 
-### 🤝 Socials:
+**Tech:** Angular, TypeScript, ASP.NET Core, EF Core, SQL Server, JWT, Azure, Leaflet
 
-  <div id="badges">
-    <a href="https://www.linkedin.com/in/mykola-dotsenko/" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/2504/2504799.png" width="40" height="40" alt="linkedin" />
-    </a>
+### 🏠 Property Pulse
+Property rental web app with listings, image uploads, authentication, messaging, and map features.
 
-  </div>
+**Tech:** Next.js, React, Tailwind CSS, MongoDB, Cloudinary, Mapbox
+
+### 🎞️ MovieDux
+Movie-focused frontend project for browsing and managing movie-related content.
+
+**Tech:** React, JavaScript
+
+## Experience snapshot
+
+- **Software Developer @ Techco – Better Digital Services**  
+  Python/Django, Wagtail, HTMX, SQL, performance optimization, integrations, validation flows
+
+- **Software Developer @ Duotone**  
+  Next.js, TypeScript, Tailwind, PostgreSQL/Supabase, search features
+
+- **Software Developer Intern @ Nidos**  
+  React, TanStack, REST APIs, Postman, Playwright
+
+## Contact
+
+- LinkedIn: [linkedin.com/in/mykoladotsenko](https://www.linkedin.com/)
+- Portfolio: [mykola-dotsenko-portfolio5.web.app](https://mykola-dotsenko-portfolio5.web.app/)
+- GitHub: [github.com/MykolaDotsenko](https://github.com/MykolaDotsenko)
 
 ---
 
-### 💻 My stack:
-
-<div>
-<a href="https://nextjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nextjs.png" alt="NextJS" height="50" /></a>  
-<a href="https://reactjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" /></a>  
-<a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" /></a>  
-<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>  
-<a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>  
-<a href="https://www.typescriptlang.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="50" /></a>  
-<a href="https://redux.js.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/redux-original.svg" alt="Redux" height="50" /></a>  
-<a href="https://www.tailwindcss.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/tailwindcss.svg" alt="Tailwind CSS" height="50" /></a>  
-<a href="https://mui.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mui.png" alt="Material UI" height="50" /></a>  
-<a href="https://www.mongodb.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg" alt="MongoDB" height="50" /></a>  
-<a href="https://styled-components.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/styled-components.png" alt="Styled Components" height="50" /></a>  
-<a href="https://nodejs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="50" /></a>  
-<a href="https://github.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" /></a>  
-</div>
-
----
-
-<img style="margin: 10px" src="https://media.proglib.io/posts/2019/09/23/862c8794e054ab2407425c117e8a0bd5.jpg" alt="Skills" />
-
-
-
+⭐ Open to Software Developer / Full-Stack / Python-Django roles
