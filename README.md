@@ -170,9 +170,6 @@ Movie-focused frontend project for browsing and managing movie-related content.
   <a href="https://htmx.org/" target="_blank">
     <img style="margin: 10px" src="https://cdn.simpleicons.org/htmx/3366CC" alt="HTMX" height="42" />
   </a>
-  <a href="https://playwright.dev/" target="_blank">
-    <img style="margin: 10px" src="https://cdn.simpleicons.org/playwright/2EAD33" alt="Playwright" height="42" />
-  </a>
 </div>
 
 <details>
