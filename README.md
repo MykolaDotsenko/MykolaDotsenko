@@ -1,6 +1,6 @@
 # Hi, I'm Mykola Dotsenko 👋
 
-**Full-Stack Software Developer** based in Finland (Turku)  
+**Full-Stack Software Developer** 
 **Python / Django + React / Next.js + PostgreSQL**  
 Focused on building reliable web products with strong performance, data consistency, and long-term maintainability.
 
