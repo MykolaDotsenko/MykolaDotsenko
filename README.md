@@ -4,104 +4,103 @@
 
 ### Software Engineer · Python/Django · Backend, Data & AI Integrations · AgriTech
 
-**I build software for the moment when messy real-world data has to become a trustworthy decision.**
+**I turn messy real-world data into software people can trust and act on.**
 
 Turku, Finland · originally from Ukraine · open to relocation
 
 [Portfolio](https://mykoladotsenko.github.io/developer-profile/) · [Resume](https://mykoladotsenko.github.io/developer-profile/resume.html) · [LinkedIn](https://www.linkedin.com/in/mykola-dotsenko/)
 
-<kbd>Python</kbd> <kbd>Django</kbd> <kbd>PostgreSQL</kbd> <kbd>APIs & integrations</kbd> <kbd>TypeScript</kbd> <kbd>React</kbd> <kbd>Decision support</kbd> <kbd>AgriTech</kbd>
+<br>
+
+<kbd>Python</kbd> <kbd>Django</kbd> <kbd>PostgreSQL</kbd> <kbd>APIs</kbd> <kbd>Data</kbd> <kbd>TypeScript</kbd> <kbd>React</kbd> <kbd>AgriTech</kbd>
 
 </div>
 
 ---
 
-## About me
-
-I am a backend/data-focused Software Engineer working mainly with **Python, Django and PostgreSQL**.
-
-The problems I enjoy most begin where clean diagrams stop being true: two systems disagree about the same customer, an API returns stale data, a retry creates a duplicate, GPS becomes unreliable, or an AI model produces something convincing but wrong.
-
-```text
-messy reality
-     ↓
-validated state
-     ↓
-explicit uncertainty
-     ↓
-deterministic rules
-     ↓
-a useful next action
-```
-
-I can work end-to-end with **TypeScript, React, Next.js, HTMX and browser APIs**, but my strongest area is where **backend systems, data, integrations, domain rules and production reliability** meet.
-
----
-
-## From fields and greenhouses to software
-
-My route into engineering was not linear.
-
-Before software, I spent **8+ years across agriculture, greenhouse and food production, accounting, sales and business operations**. I later rebuilt my professional path around software engineering in Finland.
-
 <table>
   <tr>
-    <td align="center"><strong>Agriculture</strong><br><sub>production · greenhouse · operations</sub></td>
-    <td align="center">→</td>
-    <td align="center"><strong>Business</strong><br><sub>accounting · sales · customers</sub></td>
-    <td align="center">→</td>
-    <td align="center"><strong>Software</strong><br><sub>backend · data · integrations</sub></td>
-    <td align="center">→</td>
-    <td align="center"><strong>AgriTech</strong><br><sub>decision support · economics</sub></td>
+    <td width="33%" align="center">
+      <strong>Software Developer</strong><br>
+      <sub>Techco / Bo · Finland</sub>
+    </td>
+    <td width="33%" align="center">
+      <strong>Backend + Data</strong><br>
+      <sub>integrations · reliability · decision support</sub>
+    </td>
+    <td width="33%" align="center">
+      <strong>8+ years before tech</strong><br>
+      <sub>agriculture · business · operations</sub>
+    </td>
   </tr>
 </table>
 
-That earlier experience still shapes how I write software.
+## What I do
 
-A database row represents something real. A duplicate customer can trigger the wrong workflow. A wrong financial assumption can make a beautiful dashboard useless. Agriculture also teaches humility: weather, timing, labour, machinery and biology do not care how elegant the software model is.
+I am a backend/data-focused engineer working mainly with **Python, Django and PostgreSQL**.
 
-I keep older learning repositories public for the same reason. I prefer showing the actual progression from HTML/CSS and early React work to production-oriented backend and data systems instead of rewriting the past into a perfect origin story.
+The problems I enjoy are usually the awkward ones: two systems disagree about the same customer, an API goes stale, a retry creates a duplicate, a source of truth is unclear, or an AI model returns something plausible but wrong.
 
----
+```text
+messy reality → validated state → explicit uncertainty → reliable action
+```
 
-## Production work
+I also work comfortably across **TypeScript, React, Next.js and HTMX**, but the center of gravity is backend systems, data boundaries, integrations and production correctness.
 
-I currently work as a **Software Developer at Techco / Bo in Finland**. Most production code is private, so the public profile focuses on the engineering patterns and measurable outcomes I can share.
+### Production impact
 
 <table>
   <tr>
-    <td align="center" width="33%">
-      <strong>~200k</strong><br>
+    <td width="33%" align="center">
+      <h3>~200k</h3>
       <sub>CRM/contact records reconciled across Kivi, OviPro and HubSpot</sub>
     </td>
-    <td align="center" width="33%">
-      <strong>3.5s → ~300ms</strong><br>
+    <td width="33%" align="center">
+      <h3>3.5s → ~300ms</h3>
       <sub>one key search path after backend/query optimization</sub>
     </td>
-    <td align="center" width="33%">
-      <strong>~1,600</strong><br>
+    <td width="33%" align="center">
+      <h3>~1,600</h3>
       <sub>duplicate assignment records resolved with stronger ingestion rules</sub>
     </td>
   </tr>
 </table>
 
-My work has included **multi-source CRM identity resolution, document synchronization, Kivi/OviPro/HubSpot integrations, data reconciliation, search optimization, source-of-truth rules, retry-safe processing, production incident investigation and AI-enabled application features with deterministic guardrails**.
+My production work has included **identity resolution, multi-source reconciliation, document synchronization, API integrations, source-of-truth rules, retry-safe processing, search optimization, incident investigation and AI-enabled features with deterministic guardrails**.
 
-> **Correctness depends on knowing who owns the state, what evidence is authoritative, and what the system should do when that evidence is incomplete.**
+> **Correctness starts with knowing who owns the state, what evidence is authoritative, and what to do when that evidence is incomplete.**
 
 ---
 
-## AgriTech — where my past and present meet
+## From agriculture to software
 
-AgriTech is not a keyword I added after becoming a developer. It is where my previous domain experience and software work naturally converge.
+My path into engineering was not a straight line.
 
-I have worked around **crop and greenhouse production, operational planning, accounting, sales and business economics**. I also hold a completed **Master’s degree in Accounting & Auditing**, and I am currently studying for an **MSc in Software Engineering at NTU “KhPI”**.
+<table>
+  <tr>
+    <td align="center"><strong>Agriculture</strong><br><sub>fields · greenhouse · production</sub></td>
+    <td align="center">→</td>
+    <td align="center"><strong>Business</strong><br><sub>accounting · sales · operations</sub></td>
+    <td align="center">→</td>
+    <td align="center"><strong>Software</strong><br><sub>backend · data · integrations</sub></td>
+    <td align="center">→</td>
+    <td align="center"><strong>AgriTech</strong><br><sub>decisions · economics · evidence</sub></td>
+  </tr>
+</table>
 
-My academic direction includes **decision-support software for farming and forecasting production/economic data**.
+Before software engineering, I spent **8+ years across agriculture, greenhouse and food production, accounting, sales and business operations**.
 
-### [PROFIT](https://github.com/MykolaDotsenko/PROFIT)
+That experience still matters. Accounting taught me to ask where a number came from. Agriculture taught me that software eventually meets physical reality. Sales and operations taught me that technically correct software can still fail if it does not fit how people actually work.
 
-**From farm data to profitable action.**
+---
+
+## AgriTech
+
+This is where my previous domain experience and software work naturally meet.
+
+I hold a completed **Master’s degree in Accounting & Auditing** and I am currently studying for an **MSc in Software Engineering at NTU “KhPI”**. My academic direction includes **decision-support software for farming and forecasting production/economic data**.
+
+### [PROFIT](https://github.com/MykolaDotsenko/PROFIT) · From farm data to profitable action
 
 <table>
   <tr>
@@ -114,67 +113,17 @@ My academic direction includes **decision-support software for farming and forec
   </tr>
 </table>
 
-PROFIT is my longer-term product direction for treating a farm as a connected economic and operational system:
-
 **Farm reality → Data → Intelligence → Decision → Action → Economic effect**
 
-The questions matter more than the acronym:
+PROFIT is my longer-term product direction for treating a farm as one connected economic and operational system rather than a collection of dashboards.
 
-**What is actually profitable? Where are costs rising? What should happen next? What result was expected? What actually happened? Can the economic effect really be attributed to the action?**
-
-For value claims I use:
+The standard I want to preserve is simple:
 
 **Hypothetical → Modelled → Observed → Attributed → Verified**
 
-I use the same discipline with AI: **financial and agronomic calculations should remain deterministic, testable and auditable; AI can explain and interpret verified logic, but should not silently become the source of financial truth.**
+A modelled saving is not an observed result. An observed result is not automatically caused by the software. The same principle applies to AI: **use it to explain and interpret verified logic, not to replace deterministic financial or agronomic truth.**
 
-The broader direction spans field crops, horticulture, greenhouse production, livestock and mixed farms. **Product planning, architecture and farmer-facing validation are still in progress.**
-
-[PROFIT repository](https://github.com/MykolaDotsenko/PROFIT) · [PROFIT website work](https://github.com/MykolaDotsenko/profit-website)
-
----
-
-## Selected work
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/MykolaDotsenko/cultural-currency-converter">
-        <img src="https://raw.githubusercontent.com/MykolaDotsenko/cultural-currency-converter/master/docs/assets/cultural-currency-converter-overview.webp" alt="Cultural Currency Converter interface" width="100%">
-      </a>
-      <br><strong>Cultural Currency Converter</strong><br>
-      <sub>Python/Django · FX, provenance, provider boundaries, graceful degradation</sub>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/MykolaDotsenko/domonest">
-        <img src="https://raw.githubusercontent.com/MykolaDotsenko/domonest/master/docs/images/domonest-today.png" alt="DomoNest Today dashboard" width="100%">
-      </a>
-      <br><strong>DomoNest</strong><br>
-      <sub>Django/Wagtail · connected household workflows and domain state</sub>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td width="33%" valign="top"><strong>🚆 <a href="https://github.com/MykolaDotsenko/JunaLippu">JunaLippu</a></strong><br><sub>Race-safe railway booking and segment-aware inventory</sub></td>
-    <td width="33%" valign="top"><strong>🚌 <a href="https://github.com/MykolaDotsenko/foli-live-departures">Turku Departures</a></strong><br><sub>Realtime transit, stale data, GPS uncertainty and offline use</sub></td>
-    <td width="33%" valign="top"><strong>🛒 <a href="https://github.com/MykolaDotsenko/shopping-budget-companion">Shopping Budget Companion</a></strong><br><sub>Exact money, offline-first state and on-device recognition</sub></td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top"><strong>⚖️ <a href="https://github.com/MykolaDotsenko/tradeoff-decision-lab">Tradeoff</a></strong><br><sub>Explainable decision support without fake certainty</sub></td>
-    <td width="33%" valign="top"><strong>🎬 <a href="https://github.com/MykolaDotsenko/reel-consensus">Reel Consensus</a></strong><br><sub>Fair group decisions with hard vetoes and visible trade-offs</sub></td>
-    <td width="33%" valign="top"><strong>📦 <a href="https://github.com/MykolaDotsenko/pakettitutka">Pakettitutka</a></strong><br><sub>Finland-specific tariff logic with explicit pricing confidence</sub></td>
-  </tr>
-</table>
-
-<div align="center">
-
-**[See all repositories →](https://github.com/MykolaDotsenko?tab=repositories)**
-
-<sub>Each repository has its own README with architecture, trade-offs, tests and product details.</sub>
-
-</div>
+<sub>Current status: product planning, architecture and farmer-facing validation are in progress.</sub>
 
 ---
 
@@ -182,40 +131,58 @@ The broader direction spans field crops, horticulture, greenhouse production, li
 
 <table>
   <tr>
-    <td width="50%" valign="top"><strong>Trace the source, not the symptom.</strong><br><sub>If bad data appears in the UI, I want to know where it first became wrong.</sub></td>
-    <td width="50%" valign="top"><strong>Protect invariants at the right layer.</strong><br><sub>If a rule must survive retries, races or several clients, a disabled button is not enough.</sub></td>
+    <td width="50%" valign="top">
+      <strong>Trace the source.</strong><br>
+      <sub>I prefer finding where data first became wrong over patching the last screen that exposed it.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <strong>Protect the invariant.</strong><br>
+      <sub>If a rule must survive retries or races, it belongs below the UI.</sub>
+    </td>
   </tr>
   <tr>
-    <td width="50%" valign="top"><strong>Make uncertainty visible.</strong><br><sub>Missing, stale, ambiguous, degraded, scheduled and live are different states.</sub></td>
-    <td width="50%" valign="top"><strong>Treat outside data as untrusted.</strong><br><sub>API responses, imported files, GPS, OCR and model output get validated before becoming domain truth.</sub></td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top"><strong>Design for recovery.</strong><br><sub>Retries, idempotency, rollback, migration and degraded operation are part of the feature.</sub></td>
-    <td width="50%" valign="top"><strong>Keep architecture proportional.</strong><br><sub>I like good architecture. I do not like architecture cosplay. Complexity has to earn its cost.</sub></td>
+    <td width="50%" valign="top">
+      <strong>Make uncertainty visible.</strong><br>
+      <sub>Live, stale, missing, ambiguous and degraded are different states.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <strong>Keep complexity earned.</strong><br>
+      <sub>I like good architecture. I do not like architecture cosplay.</sub>
+    </td>
   </tr>
 </table>
 
-> **I would rather show “unknown” than manufacture confidence.**
-
----
-
-## Stack
-
 <div align="center">
 
-**Backend & data**  
-<kbd>Python</kbd> <kbd>Django</kbd> <kbd>DRF</kbd> <kbd>Wagtail</kbd> <kbd>PostgreSQL</kbd> <kbd>SQL</kbd> <kbd>HTMX</kbd>
-
-**Frontend & product**  
-<kbd>TypeScript</kbd> <kbd>React</kbd> <kbd>Next.js</kbd> <kbd>JavaScript</kbd> <kbd>HTML</kbd> <kbd>CSS</kbd> <kbd>PWA</kbd>
-
-**Quality & delivery**  
-<kbd>pytest</kbd> <kbd>Vitest</kbd> <kbd>Playwright</kbd> <kbd>axe</kbd> <kbd>Ruff</kbd> <kbd>mypy</kbd> <kbd>GitHub Actions</kbd> <kbd>Docker</kbd>
+**I would rather show “unknown” than manufacture confidence.**
 
 </div>
 
+---
+
+## Stack & education
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Core stack</strong><br><br>
+      Python · Django · DRF · Wagtail · PostgreSQL · SQL · HTMX<br><br>
+      TypeScript · React · Next.js · JavaScript<br><br>
+      pytest · Vitest · Playwright · Ruff · mypy · GitHub Actions · Docker
+    </td>
+    <td width="50%" valign="top">
+      <strong>Background</strong><br><br>
+      MSc Software Engineering — <strong>in progress</strong><br>
+      NTU “KhPI”<br><br>
+      Master’s in Accounting & Auditing — <strong>completed</strong><br><br>
+      AWS architecture — current deeper focus<br>
+      Finnish — actively learning
+    </td>
+  </tr>
+</table>
+
 <details>
-<summary><strong>Other technologies I have worked with</strong></summary>
+<summary><strong>Broader hands-on technologies</strong></summary>
 
 <br>
 
@@ -225,37 +192,14 @@ C# · ASP.NET Core · Entity Framework Core · Angular · SQL Server · MongoDB/
 
 ---
 
-## Education & life beyond the stack
-
-| | |
-| --- | --- |
-| **Current work** | Software Developer — Techco / Bo, Finland |
-| **Software engineering** | MSc Software Engineering — **in progress**, NTU “KhPI” |
-| **Business & finance** | Master’s degree in **Accounting & Auditing — completed** |
-| **Domain experience** | **8+ years** across agriculture, greenhouse/production, accounting, sales and operations |
-| **Cloud** | Deepening AWS architecture knowledge; preparing for **AWS Solutions Architect – Associate** |
-| **Finland** | Building my life and career here while actively learning **Finnish** |
-
-Accounting taught me to ask **where a number came from**. Agriculture taught me that software eventually meets physical reality. Sales and customer work taught me that technically correct software can still fail if it does not fit how people actually work.
-
-Software engineering gave me a way to connect all three.
-
----
-
-## Where I want to keep growing
-
-**Backend/data engineering · integrations · vertical SaaS · operational software · decision-support systems · reliable AI-enabled products · AgriTech**
-
-The common thread is simple: **software where real data, real constraints and real decisions matter.**
-
----
-
 <div align="center">
 
 ### Let’s connect
 
 [LinkedIn](https://www.linkedin.com/in/mykola-dotsenko/) · [Portfolio](https://mykoladotsenko.github.io/developer-profile/) · [Resume](https://mykoladotsenko.github.io/developer-profile/resume.html)
 
-<sub>If a system has to survive conflicting data, retries, uncertainty or a bad day from an external API, that is usually the part I want to work on.</sub>
+<br>
+
+<sub>Software where real data, real constraints and real decisions matter.</sub>
 
 </div>
