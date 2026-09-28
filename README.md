@@ -1,194 +1,83 @@
-# Hi, I'm Mykola Dotsenko 👋
+# Mykola Dotsenko
 
-**Full-Stack Software Developer** 
-**Python / Django + React / Next.js + PostgreSQL**  
-Focused on building reliable web products with strong performance, data consistency, and long-term maintainability.
+**Software Engineer · Python/Django · Backend, Data & AI Integrations**
 
----
+I build reliable backend and data-intensive systems where correctness matters across external APIs, synchronization boundaries, user workflows, and imperfect real-world data.
 
-## 📍 Open to opportunities
+Based in **Turku, Finland** · Open to relocation
 
-- **Roles:** Software Developer / Full-Stack Developer / Python-Django Developer
-- **Location:** Finland (Turku), open to relocation
-- **Work style:** On-site / Hybrid / Remote
-- **Languages:** English (Professional working proficiency), Finnish (Limited working proficiency, improving)
+[LinkedIn](https://www.linkedin.com/in/mykola-dotsenko/) · [Developer profile](https://mykoladotsenko.github.io/developer-profile/) · [Resume](https://mykoladotsenko.github.io/developer-profile/resume.html)
 
 ---
 
-## 🚀 About me
+## Production engineering
 
-I build and improve web applications with a practical, product-oriented mindset.  
-My current work includes data-heavy features, integrations, validation flows, and performance optimization.
+My strongest work is in Python/Django backend development, multi-source integrations, data reconciliation, and production reliability.
 
-Before switching to software development, I worked in Agronomy, Sales, and Accounting. That background shaped my structured, ownership-driven approach and helps me translate business needs into clear technical solutions.
+- Reconciled **~200k CRM and contact records** with explicit validation, ambiguity handling, and idempotent processing.
+- Reduced a key search flow from **3.5s to ~300ms** through backend and query-path optimization.
+- Resolved **~1,600 duplicate assignment records** while strengthening repeatable ingestion and data-integrity safeguards.
+- Work across APIs, databases, background processing, internal workflows, and the frontend surfaces that connect them.
 
-I also enjoy applied AI experiments for development workflows, automation, and productivity.
+Most current production work is in private client/internal repositories.
 
-🏡 Outside of work, I’m a family man and father to a little princess. I love nature and travel, and I’m passionate about photography (manual shooting with different lenses). I also enjoy fishing, motorcycle rides, and good old rock music.
+## How I engineer
 
----
-
-## ✅ Impact highlights
-
-- Build and maintain production search, filtering, listing, and detail views
-- Improve backend performance with ORM optimization, caching, and N+1 fixes
-- Implement integrations and validation flows to keep business data consistent
-- Strengthen reliability with automated tests, type hints, and static analysis (Ruff, mypy)
-
----
-
-## 🧠 Engineering focus
-
-I care about:
-- performance in data-heavy flows
-- data consistency and validation
-- maintainable code and clean architecture
-- pragmatic delivery and reliability
+- **Put correctness at the right boundary.** Prefer database/domain invariants over UI conventions when the rule must survive retries, races, or multiple clients.
+- **Make uncertainty explicit.** Treat stale, ambiguous, missing, degraded, and unknown states as different states instead of hiding them behind a generic success path.
+- **Treat external and AI output as untrusted input.** Validate, normalize, bound, and provide deterministic fallback where needed.
+- **Keep architecture proportional.** Add abstractions, frameworks, and infrastructure only when the problem earns their cost.
+- **Verify failure modes, not only happy paths.** Use automated tests, integration checks, browser flows, and production evidence to protect risky behaviour.
 
 ---
 
-## 🔍 What I’m working on
+## Selected engineering work
 
-- Building and maintaining search, filtering, listing, and detail views in production web apps
-- Improving performance (ORM optimization, caching, N+1 fixes)
-- Implementing integrations and validation pipelines to keep business data consistent
-- Strengthening reliability with automated tests, type hints, and static analysis
+- **[Cultural Currency Converter](https://github.com/MykolaDotsenko/cultural-currency-converter-)**  
+  Django-first travel-money product with current/historical FX semantics, external-provider boundaries, PostgreSQL, HTMX, provenance-aware context, optional AI with deterministic fallback, and production-oriented backup/quality tooling.  
+  `Python · Django · PostgreSQL · HTMX · TypeScript`
 
----
+- **[DomoNest](https://github.com/MykolaDotsenko/wagtail-StreamField)**  
+  Django + Wagtail household operating system built around cross-domain workflows, owner-scoped private state, database invariants, idempotent writes, deterministic recurrence, and server-rendered progressive enhancement.  
+  `Python · Django · Wagtail · PostgreSQL · Playwright`
 
-## 🔧 Skills
+- **[Turku Departures](https://github.com/MykolaDotsenko/foli-live-departures)** · [Live](https://mykoladotsenko.github.io/foli-live-departures/)  
+  Privacy-first transit PWA that keeps live, scheduled, stale, and unknown states distinct; handles GTFS/SIRI edge cases, repeated stops, unreliable GPS, offline use, and mobile accessibility.  
+  `React · GTFS/SIRI · PWA · Playwright`
 
-### Core (production)
-- Python
-- Django
-- Django REST Framework
-- Wagtail
-- PostgreSQL / SQL
-- HTMX
-- HTML / CSS
+- **[JunaLippu](https://github.com/MykolaDotsenko/JunaLippu)**  
+  Reliability-focused railway booking demo with segment-aware inventory, race-safe booking protected by a database constraint, concurrent-booking tests, owner-scoped reservations, and GTFS times beyond 24:00.  
+  `Next.js · TypeScript · tRPC · Prisma · Playwright`
 
-### Frontend
-- React
-- Next.js
-- TypeScript
+- **[Shopping Budget Companion](https://github.com/MykolaDotsenko/shopping-budget-companion)** · [Live](https://mykoladotsenko.github.io/shopping-budget-companion/)  
+  Local-first shopping companion with exact-money arithmetic, versioned persistence, explicit recovery states, offline/PWA support, on-device camera features, cross-browser E2E, accessibility checks, SBOM, and build provenance.  
+  `React · TypeScript · Zod · PWA · Playwright`
 
-### Testing & Quality
-- Playwright
-- Postman
-- Ruff
-- mypy
-
-### Tools & Practices
-- Git / GitHub
-- Docker
-- Agile / Scrum
-
-### Also worked with
-- Tailwind CSS
-- JavaScript
-- Node.js
-- MongoDB
-- ASP.NET Core
-- Entity Framework Core
-- SQL Server
-- Angular
+- **[RPS League — Reaktor](https://github.com/MykolaDotsenko/reaktor-mykola)** · [Live](https://reaktor-rps-zeta.vercel.app/)  
+  Data-normalization application for a difficult legacy API: paginated ingestion, runtime validation, malformed records, duplicates, rate limits, canonical domain modelling, and a server-only API boundary.  
+  `Next.js · TypeScript · Zod · Data pipelines`
 
 ---
 
-## 💼 Experience snapshot
+## Core stack
 
-- **Software Developer @ Techco – Better Digital Services**  
-  Python/Django, Wagtail, HTMX, SQL, performance optimization, integrations, validation flows
+**Backend & data**  
+Python · Django · Django REST Framework · Wagtail · PostgreSQL · SQL · HTMX
 
-- **Software Developer @ Duotone**  
-  Next.js, TypeScript, Tailwind, PostgreSQL/Supabase, search features
+**Frontend & product**  
+TypeScript · React · Next.js · JavaScript · HTML · CSS
 
-- **Software Developer Intern @ Nidos**  
-  React, TanStack, REST APIs, Postman, Playwright
+**Quality & delivery**  
+Automated testing · Playwright · Ruff · mypy · GitHub Actions · Docker · CI/CD
 
-> Note: Most current production work is in private repositories (client/internal projects).
+## Domain edge
 
----
+Before software engineering, I worked across **agriculture, greenhouse/production environments, accounting, sales, and business operations**. That background is especially useful when software has to represent real operational processes rather than idealized workflows.
 
-## 📌 Featured projects
-
-### 🎬 Movies Manager
-Full-stack movie management app with Angular + ASP.NET Core, JWT auth, SQL Server, Swagger, Azure deployment, and geospatial features.
-
-- **What it demonstrates:** full-stack architecture, authentication, cloud deployment, testing, geospatial features
-- **Tech:** Angular, TypeScript, ASP.NET Core, EF Core, SQL Server, JWT, Azure, Leaflet
-- **Repo:** Add your Movies Manager repository link here
-- **API Docs (Swagger):** https://moviesapi20250415161440-ahfxgzdpb8e4dbgk.canadacentral-01.azurewebsites.net/swagger/index.html
-
-### 🏠 Property Pulse
-Property rental web app with listings, image uploads, authentication, messaging, and map features.
-
-- **What it demonstrates:** product-oriented full-stack UI, auth, media uploads, map integration
-- **Tech:** Next.js, React, Tailwind CSS, MongoDB, Cloudinary, Mapbox
-- **Repo:** https://github.com/MykolaDotsenko/property-pulse
-- **Live Demo:** https://property-pulse-kddbcsbtn-nikolais-projects-7d807184.vercel.app/
-
-### 🎞️ MovieDux
-Movie-focused frontend project for browsing and managing movie-related content.
-
-- **What it demonstrates:** React UI architecture, filtering/search UX, stateful interactions
-- **Tech:** React, JavaScript
-- **Repo:** https://github.com/MykolaDotsenko/moviedux
+I am particularly interested in **backend/data engineering, integrations, reliable AI-enabled products, and AgTech**.
 
 ---
 
-## 🤝 Socials
+## Contact
 
-<div id="badges">
-  <a href="https://www.linkedin.com/in/mykola-dotsenko/" target="_blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/2504/2504799.png" width="40" height="40" alt="LinkedIn" />
-  </a>
-  <a href="https://mykola-dotsenko-portfolio5.web.app/" target="_blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" width="40" height="40" alt="Portfolio" />
-  </a>
-  <a href="https://github.com/MykolaDotsenko" target="_blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" width="40" height="40" alt="GitHub" />
-  </a>
-</div>
-
----
-
-## 💻 My stack
-
-<!-- Main stack icons (more reliable single-source rendering) -->
-<div>
-  <img src="https://skillicons.dev/icons?i=python,django,postgres,react,nextjs,ts,html,css,js,docker,git,github,nodejs,mongodb,tailwind" alt="Main tech stack icons" />
-</div>
-
-<br/>
-
-<!-- Specific tools/frameworks not always included in skillicons -->
-<div>
-  <a href="https://wagtail.org/" target="_blank">
-    <img style="margin: 10px" src="https://cdn.simpleicons.org/wagtail/43B02A" alt="Wagtail" height="42" />
-  </a>
-  <a href="https://htmx.org/" target="_blank">
-    <img style="margin: 10px" src="https://cdn.simpleicons.org/htmx/3366CC" alt="HTMX" height="42" />
-  </a>
-</div>
-
-<details>
-  <summary>More tools / practices I use</summary>
-
-  Postman, Ruff, mypy, Wagtail CMS, DRF, SQL optimization, caching, validation flows, automated testing
-</details>
-
----
-
-## 📫 Contact
-
-- LinkedIn: [linkedin.com/in/mykola-dotsenko](https://www.linkedin.com/in/mykola-dotsenko/)
-- Portfolio: [mykola-dotsenko-portfolio5.web.app](https://mykola-dotsenko-portfolio5.web.app/)
-- GitHub: [github.com/MykolaDotsenko](https://github.com/MykolaDotsenko)
-
----
-
-⭐ Open to **Software Developer / Full-Stack / Python-Django** roles  
-🇫🇮 Based in Finland (Turku), open to relocation
-
-_Last updated: February 2026_
+[LinkedIn](https://www.linkedin.com/in/mykola-dotsenko/) · [Portfolio](https://mykoladotsenko.github.io/developer-profile/) · [Resume](https://mykoladotsenko.github.io/developer-profile/resume.html)
