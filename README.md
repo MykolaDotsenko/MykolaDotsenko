@@ -13,20 +13,18 @@ Turku, Finland · originally from Ukraine · open to relocation
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-light.svg">
-  <img alt="Backend, data, integrations and AgriTech — messy reality to trustworthy decisions" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-light.svg" width="100%">
+  <img alt="Mykola Dotsenko — backend, data, integrations and AgriTech" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-light.svg" width="100%">
 </picture>
 
 ## About
 
-I am a backend/data-focused engineer working mainly with **Python, Django and PostgreSQL**.
+I build backend and data-heavy software where **correctness matters more than appearances**.
 
-I like the parts of software where reality becomes inconvenient: two systems disagree about the same customer, an API goes stale, a retry creates a duplicate, the source of truth is unclear, or an AI model returns something plausible but wrong.
+My strongest work is in **Python, Django and PostgreSQL**, especially around integrations, reconciliation, domain rules and production reliability. I also work across **TypeScript, React, Next.js and HTMX** when a feature needs the full path from data to interface.
 
-My strongest work sits around **data boundaries, integrations, domain rules and production reliability**. I also work end-to-end with **TypeScript, React, Next.js and HTMX** when the product needs it.
+The problems I enjoy are usually the awkward ones: conflicting systems, stale APIs, retries, ambiguous ownership, duplicate identities, or AI output that looks convincing but should not be trusted blindly.
 
-## Production
-
-I currently work as a **Software Developer at Techco / Bo in Finland**. Most production code is private, so I focus here on outcomes I can share.
+## Production signal
 
 <table>
   <tr>
@@ -45,27 +43,27 @@ I currently work as a **Software Developer at Techco / Bo in Finland**. Most pro
   </tr>
 </table>
 
-My work has included **identity resolution, multi-source reconciliation, document synchronization, API integrations, source-of-truth rules, retry-safe processing, search optimization, production incident investigation and AI-enabled features with deterministic guardrails**.
+I currently work as a **Software Developer at Techco / Bo in Finland**. My production work includes identity resolution, multi-source reconciliation, document synchronization, API integrations, retry-safe processing, source-of-truth rules, search optimization and incident investigation.
 
 > **Correctness starts with knowing who owns the state, what evidence is authoritative, and what to do when that evidence is incomplete.**
 
-## From agriculture to software
+## The path here
 
-Before software engineering, I spent **8+ years across agriculture, greenhouse and food production, accounting, sales and business operations**.
+Before software, I spent **8+ years across agriculture, greenhouse and food production, accounting, sales and business operations**.
 
-**Agriculture → business & operations → software engineering → backend/data systems → AgriTech**
+**Agriculture → business & operations → software engineering → backend/data → AgriTech**
 
-That earlier experience still shapes how I think. Accounting taught me to ask where a number came from. Agriculture taught me that software eventually meets physical reality. Sales and operations taught me that technically correct software can still fail if it does not fit how people actually work.
-
-I keep my older learning repositories public for the same reason: I prefer showing the real progression rather than rewriting the past into a perfect origin story.
+That background is still part of how I engineer. Accounting taught me to ask where a number came from. Agriculture taught me that software eventually meets physical reality. Operations taught me that a technically correct system can still fail if it does not fit how people actually work.
 
 ## AgriTech
 
-This is where my previous domain experience and software work naturally meet.
+This is where my domain history and software work naturally converge.
 
-I hold a completed **Master’s degree in Accounting & Auditing** and I am currently studying for an **MSc in Software Engineering at NTU “KhPI”**. My academic direction includes **decision-support software for farming and forecasting production/economic data**.
+I hold a completed **Master’s degree in Accounting & Auditing** and I am studying for an **MSc in Software Engineering at NTU “KhPI”**, with an academic direction around farm decision support and production/economic forecasting.
 
-### [PROFIT](https://github.com/MykolaDotsenko/PROFIT) · From farm data to profitable action
+### [PROFIT](https://github.com/MykolaDotsenko/PROFIT)
+
+**From farm data to profitable action.**
 
 <div align="center">
 
@@ -73,13 +71,11 @@ I hold a completed **Master’s degree in Accounting & Auditing** and I am curre
 
 **Farm reality → Data → Intelligence → Decision → Action → Economic effect**
 
-**Hypothetical → Modelled → Observed → Attributed → Verified**
+<sub>Hypothetical → Modelled → Observed → Attributed → Verified</sub>
 
 </div>
 
-PROFIT is my longer-term product direction for treating a farm as one connected economic and operational system rather than a collection of dashboards.
-
-I apply the same principle to AI: **use it to explain and interpret verified logic, not to replace deterministic financial or agronomic truth.**
+PROFIT is my longer-term AgriTech direction: connect production, operations and economics without hiding uncertainty behind a dashboard. AI can help explain verified logic; it should not quietly replace deterministic financial or agronomic truth.
 
 <sub>Current status: product planning, architecture and farmer-facing validation are in progress.</sub>
 
@@ -89,7 +85,7 @@ I apply the same principle to AI: **use it to explain and interpret verified log
   <tr>
     <td width="50%" valign="top">
       <strong>Trace the source.</strong><br>
-      <sub>Find where data first became wrong instead of patching the last screen that exposed it.</sub>
+      <sub>Find where data first became wrong, not only where it became visible.</sub>
     </td>
     <td width="50%" valign="top">
       <strong>Protect the invariant.</strong><br>
@@ -99,11 +95,11 @@ I apply the same principle to AI: **use it to explain and interpret verified log
   <tr>
     <td width="50%" valign="top">
       <strong>Make uncertainty visible.</strong><br>
-      <sub>Live, stale, missing, ambiguous and degraded are different states.</sub>
+      <sub>Live, stale, missing and ambiguous are different states.</sub>
     </td>
     <td width="50%" valign="top">
-      <strong>Keep complexity earned.</strong><br>
-      <sub>I like good architecture. I do not like architecture cosplay.</sub>
+      <strong>Make complexity earn its place.</strong><br>
+      <sub>Architecture should solve a real failure mode, not decorate the codebase.</sub>
     </td>
   </tr>
 </table>
@@ -120,11 +116,18 @@ I apply the same principle to AI: **use it to explain and interpret verified log
 
 **Quality & delivery:** pytest · Vitest · Playwright · Ruff · mypy · GitHub Actions · Docker
 
-**Also worked with:** C# · ASP.NET Core · Entity Framework Core · Angular · SQL Server · MongoDB · Prisma · Supabase · Redis
-
 **Education:** MSc Software Engineering — *in progress* · Master’s in Accounting & Auditing — *completed*
 
 **Current learning:** AWS architecture / Solutions Architect Associate preparation · Finnish
+
+<details>
+<summary><strong>Broader hands-on stack</strong></summary>
+
+<br>
+
+C# · ASP.NET Core · Entity Framework Core · Angular · SQL Server · MongoDB · Prisma · Supabase · Redis
+
+</details>
 
 ---
 
