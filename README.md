@@ -33,11 +33,11 @@ Most current production work is in private client/internal repositories.
 
 ## Selected engineering work
 
-- **[Cultural Currency Converter](https://github.com/MykolaDotsenko/cultural-currency-converter-)**  
+- **[Cultural Currency Converter](https://github.com/MykolaDotsenko/cultural-currency-converter)**  
   Django-first travel-money product with current/historical FX semantics, external-provider boundaries, PostgreSQL, HTMX, provenance-aware context, optional AI with deterministic fallback, and production-oriented backup/quality tooling.  
   `Python · Django · PostgreSQL · HTMX · TypeScript`
 
-- **[DomoNest](https://github.com/MykolaDotsenko/wagtail-StreamField)**  
+- **[DomoNest](https://github.com/MykolaDotsenko/domonest)**  
   Django + Wagtail household operating system built around cross-domain workflows, owner-scoped private state, database invariants, idempotent writes, deterministic recurrence, and server-rendered progressive enhancement.  
   `Python · Django · Wagtail · PostgreSQL · Playwright`
 
