@@ -1,22 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">Mykola Dotsenko engineering profile</title>
-  <desc id="desc">Nordic technical banner combining backend, data and AgriTech themes.</desc>
-  <rect width="1200" height="360" rx="28" fill="#0D1117"/>
-  <g stroke="#2A3139" stroke-width="1" opacity="0.9">
-    <path d="M64 72H1136M64 144H1136M64 216H1136M64 288H1136"/>
-    <path d="M120 36V324M360 36V324M600 36V324M840 36V324M1080 36V324"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Mykola Dotsenko — Software Engineer</title>
+  <desc id="desc">Nordic technical profile banner with subtle field contours and data points.</desc>
+  <rect width="1200" height="330" rx="30" fill="#0D1117"/>
+  <g stroke="#29313A" stroke-width="1">
+    <path d="M64 66H1136M64 132H1136M64 198H1136M64 264H1136"/>
+    <path d="M176 34V296M416 34V296M656 34V296M896 34V296"/>
   </g>
-  <g fill="none" stroke="#9EB78E" stroke-width="2.4" stroke-linecap="round">
-    <path d="M744 286C810 258 864 212 904 150C932 107 970 78 1022 62"/>
-    <path d="M786 306C850 280 908 237 950 182C987 134 1030 105 1086 94"/>
-    <path d="M832 318C896 292 950 256 992 212C1032 171 1077 146 1133 139"/>
+  <g fill="none" stroke="#9EB78E" stroke-linecap="round">
+    <path d="M786 282C838 259 872 228 902 187C930 148 959 116 1008 94C1044 78 1081 70 1126 69" stroke-width="2.2"/>
+    <path d="M821 301C874 279 914 250 947 212C980 174 1016 147 1060 132C1090 122 1116 118 1138 118" stroke-width="2.2"/>
+    <path d="M742 251C797 224 829 193 855 152C879 114 910 84 958 59" stroke-width="2.2"/>
+    <path d="M770 66H1128" stroke-width="4"/>
   </g>
   <g fill="#9EB78E">
-    <circle cx="904" cy="150" r="5"/><circle cx="950" cy="182" r="5"/><circle cx="992" cy="212" r="5"/>
+    <circle cx="855" cy="152" r="4.5"/>
+    <circle cx="902" cy="187" r="4.5"/>
+    <circle cx="947" cy="212" r="4.5"/>
+    <circle cx="1008" cy="94" r="4.5"/>
   </g>
-  <path d="M737 80H1110" stroke="#9EB78E" stroke-width="4" stroke-linecap="round"/>
-  <text x="76" y="102" fill="#F3F5EF" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="18" font-weight="700" letter-spacing="3">BACKEND · DATA · INTEGRATIONS · AGRITECH</text>
-  <text x="76" y="170" fill="#F3F5EF" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="38" font-weight="650">Messy reality → trustworthy decisions.</text>
-  <text x="76" y="214" fill="#AEB7C0" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="21">Python / Django · PostgreSQL · TypeScript · production reliability</text>
-  <text x="76" y="278" fill="#AEB7C0" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="17">Ukraine → Finland · agriculture &amp; business → software engineering</text>
+  <text x="72" y="84" fill="#9EB78E" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="16" font-weight="700" letter-spacing="3.4">SOFTWARE ENGINEER · FINLAND</text>
+  <text x="72" y="150" fill="#F3F5EF" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="42" font-weight="700">Backend systems for messy reality.</text>
+  <text x="72" y="196" fill="#B6C0C9" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="21">Python / Django · Data · Integrations · AgriTech</text>
+  <text x="72" y="258" fill="#939EA7" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="17">Ukraine → Finland · agriculture &amp; business → software engineering</text>
 </svg>
