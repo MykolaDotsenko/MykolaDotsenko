@@ -53,7 +53,7 @@ Most current production work is in private client/internal repositories.
   Local-first shopping companion with exact-money arithmetic, versioned persistence, explicit recovery states, offline/PWA support, on-device camera features, cross-browser E2E, accessibility checks, SBOM, and build provenance.  
   `React · TypeScript · Zod · PWA · Playwright`
 
-- **[RPS League — Reaktor](https://github.com/MykolaDotsenko/reaktor-mykola)** · [Live](https://reaktor-rps-zeta.vercel.app/)  
+- **[RPS League — Reaktor](https://github.com/MykolaDotsenko/reaktor-rps-league)** · [Live](https://reaktor-rps-zeta.vercel.app/)  
   Data-normalization application for a difficult legacy API: paginated ingestion, runtime validation, malformed records, duplicates, rate limits, canonical domain modelling, and a server-only API boundary.  
   `Next.js · TypeScript · Zod · Data pipelines`
 
