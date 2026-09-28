@@ -2,97 +2,62 @@
 
 # Mykola Dotsenko
 
-### Software Engineer · Python/Django · Backend, Data & AI Integrations · AgriTech
-
-**I turn messy real-world data into software people can trust and act on.**
+**Software Engineer · Python/Django · Backend, Data & AI Integrations · AgriTech**
 
 Turku, Finland · originally from Ukraine · open to relocation
 
 [Portfolio](https://mykoladotsenko.github.io/developer-profile/) · [Resume](https://mykoladotsenko.github.io/developer-profile/resume.html) · [LinkedIn](https://www.linkedin.com/in/mykola-dotsenko/)
 
-<br>
-
-<kbd>Python</kbd> <kbd>Django</kbd> <kbd>PostgreSQL</kbd> <kbd>APIs</kbd> <kbd>Data</kbd> <kbd>TypeScript</kbd> <kbd>React</kbd> <kbd>AgriTech</kbd>
-
 </div>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-light.svg">
+  <img alt="Backend, data, integrations and AgriTech — messy reality to trustworthy decisions" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-light.svg" width="100%">
+</picture>
 
-<table>
-  <tr>
-    <td width="33%" align="center">
-      <strong>Software Developer</strong><br>
-      <sub>Techco / Bo · Finland</sub>
-    </td>
-    <td width="33%" align="center">
-      <strong>Backend + Data</strong><br>
-      <sub>integrations · reliability · decision support</sub>
-    </td>
-    <td width="33%" align="center">
-      <strong>8+ years before tech</strong><br>
-      <sub>agriculture · business · operations</sub>
-    </td>
-  </tr>
-</table>
-
-## What I do
+## About
 
 I am a backend/data-focused engineer working mainly with **Python, Django and PostgreSQL**.
 
-The problems I enjoy are usually the awkward ones: two systems disagree about the same customer, an API goes stale, a retry creates a duplicate, a source of truth is unclear, or an AI model returns something plausible but wrong.
+I like the parts of software where reality becomes inconvenient: two systems disagree about the same customer, an API goes stale, a retry creates a duplicate, the source of truth is unclear, or an AI model returns something plausible but wrong.
 
-```text
-messy reality → validated state → explicit uncertainty → reliable action
-```
+My strongest work sits around **data boundaries, integrations, domain rules and production reliability**. I also work end-to-end with **TypeScript, React, Next.js and HTMX** when the product needs it.
 
-I also work comfortably across **TypeScript, React, Next.js and HTMX**, but the center of gravity is backend systems, data boundaries, integrations and production correctness.
+## Production
 
-### Production impact
+I currently work as a **Software Developer at Techco / Bo in Finland**. Most production code is private, so I focus here on outcomes I can share.
 
 <table>
   <tr>
     <td width="33%" align="center">
-      <h3>~200k</h3>
-      <sub>CRM/contact records reconciled across Kivi, OviPro and HubSpot</sub>
+      <strong>~200k records</strong><br>
+      <sub>CRM/contact reconciliation across Kivi, OviPro and HubSpot</sub>
     </td>
     <td width="33%" align="center">
-      <h3>3.5s → ~300ms</h3>
+      <strong>3.5s → ~300ms</strong><br>
       <sub>one key search path after backend/query optimization</sub>
     </td>
     <td width="33%" align="center">
-      <h3>~1,600</h3>
-      <sub>duplicate assignment records resolved with stronger ingestion rules</sub>
+      <strong>~1,600 duplicates</strong><br>
+      <sub>resolved while tightening ingestion rules</sub>
     </td>
   </tr>
 </table>
 
-My production work has included **identity resolution, multi-source reconciliation, document synchronization, API integrations, source-of-truth rules, retry-safe processing, search optimization, incident investigation and AI-enabled features with deterministic guardrails**.
+My work has included **identity resolution, multi-source reconciliation, document synchronization, API integrations, source-of-truth rules, retry-safe processing, search optimization, production incident investigation and AI-enabled features with deterministic guardrails**.
 
 > **Correctness starts with knowing who owns the state, what evidence is authoritative, and what to do when that evidence is incomplete.**
 
----
-
 ## From agriculture to software
-
-My path into engineering was not a straight line.
-
-<table>
-  <tr>
-    <td align="center"><strong>Agriculture</strong><br><sub>fields · greenhouse · production</sub></td>
-    <td align="center">→</td>
-    <td align="center"><strong>Business</strong><br><sub>accounting · sales · operations</sub></td>
-    <td align="center">→</td>
-    <td align="center"><strong>Software</strong><br><sub>backend · data · integrations</sub></td>
-    <td align="center">→</td>
-    <td align="center"><strong>AgriTech</strong><br><sub>decisions · economics · evidence</sub></td>
-  </tr>
-</table>
 
 Before software engineering, I spent **8+ years across agriculture, greenhouse and food production, accounting, sales and business operations**.
 
-That experience still matters. Accounting taught me to ask where a number came from. Agriculture taught me that software eventually meets physical reality. Sales and operations taught me that technically correct software can still fail if it does not fit how people actually work.
+**Agriculture → business & operations → software engineering → backend/data systems → AgriTech**
 
----
+That earlier experience still shapes how I think. Accounting taught me to ask where a number came from. Agriculture taught me that software eventually meets physical reality. Sales and operations taught me that technically correct software can still fail if it does not fit how people actually work.
+
+I keep my older learning repositories public for the same reason: I prefer showing the real progression rather than rewriting the past into a perfect origin story.
 
 ## AgriTech
 
@@ -102,30 +67,21 @@ I hold a completed **Master’s degree in Accounting & Auditing** and I am curre
 
 ### [PROFIT](https://github.com/MykolaDotsenko/PROFIT) · From farm data to profitable action
 
-<table>
-  <tr>
-    <td align="center"><strong>P</strong><br><sub>Production</sub></td>
-    <td align="center"><strong>R</strong><br><sub>Revenue</sub></td>
-    <td align="center"><strong>O</strong><br><sub>Operations</sub></td>
-    <td align="center"><strong>F</strong><br><sub>Finance</sub></td>
-    <td align="center"><strong>I</strong><br><sub>Intelligence</sub></td>
-    <td align="center"><strong>T</strong><br><sub>Trade</sub></td>
-  </tr>
-</table>
+<div align="center">
+
+**P** Production · **R** Revenue · **O** Operations · **F** Finance · **I** Intelligence · **T** Trade
 
 **Farm reality → Data → Intelligence → Decision → Action → Economic effect**
 
-PROFIT is my longer-term product direction for treating a farm as one connected economic and operational system rather than a collection of dashboards.
-
-The standard I want to preserve is simple:
-
 **Hypothetical → Modelled → Observed → Attributed → Verified**
 
-A modelled saving is not an observed result. An observed result is not automatically caused by the software. The same principle applies to AI: **use it to explain and interpret verified logic, not to replace deterministic financial or agronomic truth.**
+</div>
+
+PROFIT is my longer-term product direction for treating a farm as one connected economic and operational system rather than a collection of dashboards.
+
+I apply the same principle to AI: **use it to explain and interpret verified logic, not to replace deterministic financial or agronomic truth.**
 
 <sub>Current status: product planning, architecture and farmer-facing validation are in progress.</sub>
-
----
 
 ## How I engineer
 
@@ -133,7 +89,7 @@ A modelled saving is not an observed result. An observed result is not automatic
   <tr>
     <td width="50%" valign="top">
       <strong>Trace the source.</strong><br>
-      <sub>I prefer finding where data first became wrong over patching the last screen that exposed it.</sub>
+      <sub>Find where data first became wrong instead of patching the last screen that exposed it.</sub>
     </td>
     <td width="50%" valign="top">
       <strong>Protect the invariant.</strong><br>
@@ -158,47 +114,23 @@ A modelled saving is not an observed result. An observed result is not automatic
 
 </div>
 
----
-
 ## Stack & education
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>Core stack</strong><br><br>
-      Python · Django · DRF · Wagtail · PostgreSQL · SQL · HTMX<br><br>
-      TypeScript · React · Next.js · JavaScript<br><br>
-      pytest · Vitest · Playwright · Ruff · mypy · GitHub Actions · Docker
-    </td>
-    <td width="50%" valign="top">
-      <strong>Background</strong><br><br>
-      MSc Software Engineering — <strong>in progress</strong><br>
-      NTU “KhPI”<br><br>
-      Master’s in Accounting & Auditing — <strong>completed</strong><br><br>
-      AWS architecture — current deeper focus<br>
-      Finnish — actively learning
-    </td>
-  </tr>
-</table>
+**Core:** Python · Django · DRF · Wagtail · PostgreSQL · SQL · HTMX · TypeScript · React · Next.js
 
-<details>
-<summary><strong>Broader hands-on technologies</strong></summary>
+**Quality & delivery:** pytest · Vitest · Playwright · Ruff · mypy · GitHub Actions · Docker
 
-<br>
+**Also worked with:** C# · ASP.NET Core · Entity Framework Core · Angular · SQL Server · MongoDB · Prisma · Supabase · Redis
 
-C# · ASP.NET Core · Entity Framework Core · Angular · SQL Server · MongoDB/Mongoose · Prisma · Supabase · Redis
+**Education:** MSc Software Engineering — *in progress* · Master’s in Accounting & Auditing — *completed*
 
-</details>
+**Current learning:** AWS architecture / Solutions Architect Associate preparation · Finnish
 
 ---
 
 <div align="center">
 
-### Let’s connect
-
 [LinkedIn](https://www.linkedin.com/in/mykola-dotsenko/) · [Portfolio](https://mykoladotsenko.github.io/developer-profile/) · [Resume](https://mykoladotsenko.github.io/developer-profile/resume.html)
-
-<br>
 
 <sub>Software where real data, real constraints and real decisions matter.</sub>
 
