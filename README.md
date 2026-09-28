@@ -1,61 +1,72 @@
 # Mykola Dotsenko
 
-**Software Engineer · Python/Django · Backend, Data & AI Integrations**
+**Software Engineer · Python/Django · Backend, Data & API Integrations**
 
-I build reliable backend and data-intensive systems where correctness matters across external APIs, synchronization boundaries, user workflows, and imperfect real-world data.
+I build backend and data-heavy web products where external systems, imperfect data and user workflows have to stay consistent.
 
 Based in **Turku, Finland** · Open to relocation
 
-[LinkedIn](https://www.linkedin.com/in/mykola-dotsenko/) · [Developer profile](https://mykoladotsenko.github.io/developer-profile/) · [Resume](https://mykoladotsenko.github.io/developer-profile/resume.html)
+[Developer profile](https://mykoladotsenko.github.io/developer-profile/) ·
+[Resume](https://mykoladotsenko.github.io/developer-profile/resume.html) ·
+[LinkedIn](https://www.linkedin.com/in/mykola-dotsenko/)
 
 ---
 
-## Production engineering
+## Production work
 
-My strongest work is in Python/Django backend development, multi-source integrations, data reconciliation, and production reliability.
+My main stack is Python/Django and PostgreSQL. Current work includes CRM and property-data integrations, search, document flows, synchronization, production debugging and the frontend around those features.
 
-- Reconciled **~200k CRM and contact records** with explicit validation, ambiguity handling, and idempotent processing.
-- Reduced a key search flow from **3.5s to ~300ms** through backend and query-path optimization.
-- Resolved **~1,600 duplicate assignment records** while strengthening repeatable ingestion and data-integrity safeguards.
-- Work across APIs, databases, background processing, internal workflows, and the frontend surfaces that connect them.
+A few concrete examples:
 
-Most current production work is in private client/internal repositories.
+- reconciled roughly **200k CRM/contact records** across Kivi, OviPro and HubSpot;
+- reduced one search path from **3.5s to about 300ms**;
+- resolved roughly **1,600 duplicate assignment records** and tightened the ingestion rules behind them.
 
-## How I engineer
+Most current production code lives in private client/internal repositories.
 
-- **Put correctness at the right boundary.** Prefer database/domain invariants over UI conventions when the rule must survive retries, races, or multiple clients.
-- **Make uncertainty explicit.** Treat stale, ambiguous, missing, degraded, and unknown states as different states instead of hiding them behind a generic success path.
-- **Treat external and AI output as untrusted input.** Validate, normalize, bound, and provide deterministic fallback where needed.
-- **Keep architecture proportional.** Add abstractions, frameworks, and infrastructure only when the problem earns their cost.
-- **Verify failure modes, not only happy paths.** Use automated tests, integration checks, browser flows, and production evidence to protect risky behaviour.
+## How I work
+
+- Trace bad data back to its source before patching what happens to appear on screen.
+- Put critical rules in the database or domain layer when they must survive retries, races or multiple clients.
+- Treat external API and AI output as untrusted input: validate it, bound it and provide a fallback where it matters.
+- Prefer a small change in the existing stack over adding another service or abstraction without a clear reason.
+- Test failure modes as well as the happy path.
 
 ---
 
 ## Selected engineering work
 
-- **[Cultural Currency Converter](https://github.com/MykolaDotsenko/cultural-currency-converter)**  
-  Django-first travel-money product with current/historical FX semantics, external-provider boundaries, PostgreSQL, HTMX, provenance-aware context, optional AI with deterministic fallback, and production-oriented backup/quality tooling.  
-  `Python · Django · PostgreSQL · HTMX · TypeScript`
+### [Cultural Currency Converter](https://github.com/MykolaDotsenko/cultural-currency-converter)
+**Python · Django · PostgreSQL · HTMX · TypeScript**
 
-- **[DomoNest](https://github.com/MykolaDotsenko/domonest)**  
-  Django + Wagtail household operating system built around cross-domain workflows, owner-scoped private state, database invariants, idempotent writes, deterministic recurrence, and server-rendered progressive enhancement.  
-  `Python · Django · Wagtail · PostgreSQL · Playwright`
+Travel-money product with current/historical FX semantics, external-provider boundaries, provenance-aware context and graceful degradation when optional enrichment or AI is unavailable.
 
-- **[Turku Departures](https://github.com/MykolaDotsenko/foli-live-departures)** · [Live](https://mykoladotsenko.github.io/foli-live-departures/)  
-  Privacy-first transit PWA that keeps live, scheduled, stale, and unknown states distinct; handles GTFS/SIRI edge cases, repeated stops, unreliable GPS, offline use, and mobile accessibility.  
-  `React · GTFS/SIRI · PWA · Playwright`
+### [DomoNest](https://github.com/MykolaDotsenko/domonest)
+**Python · Django · Wagtail · PostgreSQL · Playwright**
 
-- **[JunaLippu](https://github.com/MykolaDotsenko/JunaLippu)**  
-  Reliability-focused railway booking demo with segment-aware inventory, race-safe booking protected by a database constraint, concurrent-booking tests, owner-scoped reservations, and GTFS times beyond 24:00.  
-  `Next.js · TypeScript · tRPC · Prisma · Playwright`
+Household application where pantry, recipes, shopping, routines and daily planning share the same underlying state instead of drifting into separate copies.
 
-- **[Shopping Budget Companion](https://github.com/MykolaDotsenko/shopping-budget-companion)** · [Live](https://mykoladotsenko.github.io/shopping-budget-companion/)  
-  Local-first shopping companion with exact-money arithmetic, versioned persistence, explicit recovery states, offline/PWA support, on-device camera features, cross-browser E2E, accessibility checks, SBOM, and build provenance.  
-  `React · TypeScript · Zod · PWA · Playwright`
+### [Turku Departures](https://github.com/MykolaDotsenko/foli-live-departures) · [Live](https://mykoladotsenko.github.io/foli-live-departures/)
+**React · GTFS/SIRI · PWA · Playwright**
 
-- **[RPS League — Reaktor](https://github.com/MykolaDotsenko/reaktor-rps-league)** · [Live](https://reaktor-rps-zeta.vercel.app/)  
-  Data-normalization application for a difficult legacy API: paginated ingestion, runtime validation, malformed records, duplicates, rate limits, canonical domain modelling, and a server-only API boundary.  
-  `Next.js · TypeScript · Zod · Data pipelines`
+Transit PWA that distinguishes live, scheduled, stale and unknown data while handling repeated stops, unreliable GPS and offline use.
+
+### [JunaLippu](https://github.com/MykolaDotsenko/JunaLippu)
+**Next.js · TypeScript · tRPC · Prisma · Playwright**
+
+Finnish rail-booking demo with segment-aware seat inventory and a database constraint protecting concurrent reservations.
+
+### [Shopping Budget Companion](https://github.com/MykolaDotsenko/shopping-budget-companion) · [Live](https://mykoladotsenko.github.io/shopping-budget-companion/)
+**React · TypeScript · Zod · PWA · Playwright**
+
+Shopping-budget PWA with integer money, versioned local persistence, offline use and optional on-device barcode/OCR/image-recognition helpers.
+
+### [Tradeoff — Decision Lab](https://github.com/MykolaDotsenko/tradeoff-decision-lab) · [Live](https://tradeoff-decision-lab.vercel.app/)
+**React · TypeScript · Zod**
+
+Decision-support tool that keeps score, evidence confidence and sensitivity separate. AI can help prepare inputs; deterministic code calculates the result.
+
+**More public work:** [RPS League — Reaktor](https://github.com/MykolaDotsenko/reaktor-rps-league) · [MovieShelf](https://github.com/MykolaDotsenko/movieshelf) · [Pakettitutka](https://github.com/MykolaDotsenko/pakettitutka)
 
 ---
 
@@ -64,17 +75,17 @@ Most current production work is in private client/internal repositories.
 **Backend & data**  
 Python · Django · Django REST Framework · Wagtail · PostgreSQL · SQL · HTMX
 
-**Frontend & product**  
+**Frontend**  
 TypeScript · React · Next.js · JavaScript · HTML · CSS
 
 **Quality & delivery**  
 Automated testing · Playwright · Ruff · mypy · GitHub Actions · Docker · CI/CD
 
-## Domain edge
+## Domain background
 
-Before software engineering, I worked across **agriculture, greenhouse/production environments, accounting, sales, and business operations**. That background is especially useful when software has to represent real operational processes rather than idealized workflows.
+Before software engineering, I worked across agriculture, greenhouse and food production, accounting, sales and business operations. That background is useful when software has to fit a real operational process rather than an idealized one.
 
-I am particularly interested in **backend/data engineering, integrations, reliable AI-enabled products, and AgTech**.
+I am particularly interested in backend/data engineering, integrations, reliable AI-enabled products and AgTech.
 
 ---
 
