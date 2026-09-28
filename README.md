@@ -20,9 +20,11 @@ Turku, Finland · originally from Ukraine · open to relocation
 
 I build backend and data-heavy software, mostly with **Python, Django and PostgreSQL**.
 
-What keeps me interested is rarely the clean, obvious part of a system. It is usually the part where reality gets in the way: two systems disagree about the same person, an API goes stale, a retry creates a duplicate, ownership is unclear, or an AI model returns something that sounds right but is not trustworthy enough to act on.
+I am usually most interested when the problem is not neat yet. Two systems disagree about the same person. An API quietly goes stale. A retry creates a duplicate. Nobody is completely sure which system owns the truth. An AI answer sounds convincing, but there is not enough evidence to trust it. Those are the situations that make me want to dig in.
 
-I like understanding how the real work happens first, and only then turning it into code. I also work across **TypeScript, React, Next.js and HTMX** when a feature needs the full path from backend logic to the interface people actually use.
+I like tracing a problem back to how the work actually happens outside the codebase — who uses the data, where it came from, what can go wrong, and what a wrong answer would mean for a real person. Quite often, the best bug fixes teach me something new about the business too.
+
+I am backend-focused, but not backend-only. I work across **TypeScript, React, Next.js and HTMX** when that is what it takes to carry a feature all the way from a reliable rule in the backend to an interface that feels simple to use.
 
 ## Production
 
