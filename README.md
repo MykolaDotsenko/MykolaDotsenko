@@ -13,9 +13,9 @@ Turku, Finland · originally from Ukraine · open to relocation
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-light.svg">
-  <img alt="Mykola Dotsenko — backend, frontend, data, AI integrations and AgriTech" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-dark.svg?v=20260929b">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-light.svg?v=20260929b">
+  <img alt="Mykola Dotsenko — backend, frontend, data, AI integrations and AgriTech" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-light.svg?v=20260929b" width="100%">
 </picture>
 
 ## About
@@ -53,38 +53,20 @@ My production work has included **identity resolution, multi-source reconciliati
 
 ## Across the stack
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>Backend</strong><br><br>
-      <code>Python</code> <code>Django</code> <code>DRF</code> <code>Wagtail</code><br><br>
-      APIs, domain rules, workflows, reliability, query performance and production debugging.
-    </td>
-    <td width="50%" valign="top">
-      <strong>Frontend</strong><br><br>
-      <code>TypeScript</code> <code>React</code> <code>Next.js</code> <code>HTMX</code><br><br>
-      Responsive UI, reusable components, localization, interaction states and end-to-end product flows.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>Data systems</strong><br><br>
-      <code>PostgreSQL</code> <code>SQL</code> <code>ETL</code><br><br>
-      Reconciliation, synchronization, identity resolution, validation and source-of-truth logic.
-    </td>
-    <td width="50%" valign="top">
-      <strong>AI & integrations</strong><br><br>
-      <code>APIs</code> <code>AI-enabled flows</code> <code>Automation</code><br><br>
-      Connecting model-assisted features to real workflows while keeping critical rules, evidence and failure states explicit.
-    </td>
-  </tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/capability-map-dark.svg?v=20260929b">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/capability-map-light.svg?v=20260929b">
+  <img alt="Capability map: backend, frontend, data systems and AI integrations feeding into AgriTech decision software" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/capability-map-light.svg?v=20260929b" width="100%">
+</picture>
+
+**Backend:** Python · Django · DRF · Wagtail — APIs, domain rules, reliability and production debugging.  
+**Frontend:** TypeScript · React · Next.js · HTMX — responsive UI, reusable components, localization and interaction states.  
+**Data systems:** PostgreSQL · SQL · ETL — reconciliation, synchronization, identity resolution and validation.  
+**AI & integrations:** APIs · AI-enabled flows · automation — connecting model-assisted features to real workflows while keeping critical rules, evidence and failure states explicit.
 
 <div align="center">
 
-**data → backend rules → product logic → interface → decision**
-
-<sub>Backend depth. Frontend delivery. Data discipline. AI where it earns its place.</sub>
+<sub>Backend depth · frontend delivery · data discipline · AI where it earns its place.</sub>
 
 </div>
 
@@ -148,6 +130,12 @@ I want financial and agronomic logic to stay deterministic and auditable. AI can
 </table>
 
 ## Stack, study & now
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/current-focus-dark.svg?v=20260929b">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/current-focus-light.svg?v=20260929b">
+  <img alt="Current focus: production software, MSc Software Engineering, AWS architecture and Finnish" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/current-focus-light.svg?v=20260929b" width="100%">
+</picture>
 
 **Backend:** Python · Django · DRF · Wagtail · PostgreSQL · SQL
 

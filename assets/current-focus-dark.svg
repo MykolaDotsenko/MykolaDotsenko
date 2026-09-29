@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="156" viewBox="0 0 1200 156" role="img" aria-labelledby="title desc">
+  <title id="title">Current focus</title>
+  <desc id="desc">Current focus: production software, MSc Software Engineering, AWS architecture, and Finnish language learning.</desc>
+  <style>@media (prefers-reduced-motion: reduce) { .motion { display: none; } }</style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0E1418"/><stop offset="1" stop-color="#111914"/></linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9EB78E" stop-opacity="0"/><stop offset=".5" stop-color="#9EB78E" stop-opacity=".8"/><stop offset="1" stop-color="#9EB78E" stop-opacity="0"/></linearGradient>
+    <clipPath id="clip"><rect x="18" y="18" width="1164" height="120" rx="22"/></clipPath>
+  </defs>
+  <rect x="18" y="18" width="1164" height="120" rx="22" fill="url(#bg)" stroke="#2B362F"/>
+  <g clip-path="url(#clip)">
+    <text x="48" y="60" fill="#9EB78E" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11" letter-spacing="2.4">NOW / 2026</text>
+    <text x="48" y="92" fill="#EDF2EC" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="21" font-weight="760">building while learning</text>
+
+    <path d="M270 38V118M500 38V118M730 38V118M960 38V118" stroke="#344238" stroke-width="1"/>
+
+    <text x="300" y="58" fill="#8E9A92" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10.5" letter-spacing="1.4">WORK</text>
+    <text x="300" y="86" fill="#EDF2EC" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="17" font-weight="690">Production software</text>
+    <text x="300" y="108" fill="#8E9A92" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="12.5">backend · frontend · data</text>
+
+    <text x="530" y="58" fill="#8E9A92" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10.5" letter-spacing="1.4">STUDY</text>
+    <text x="530" y="86" fill="#EDF2EC" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="17" font-weight="690">MSc Software Engineering</text>
+    <text x="530" y="108" fill="#8E9A92" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="12.5">decision support · forecasting</text>
+
+    <text x="760" y="58" fill="#8E9A92" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10.5" letter-spacing="1.4">CLOUD</text>
+    <text x="760" y="86" fill="#EDF2EC" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="17" font-weight="690">AWS architecture</text>
+    <text x="760" y="108" fill="#8E9A92" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="12.5">Solutions Architect Associate</text>
+
+    <text x="990" y="58" fill="#8E9A92" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10.5" letter-spacing="1.4">FINLAND</text>
+    <text x="990" y="86" fill="#EDF2EC" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="17" font-weight="690">Finnish</text>
+    <text x="990" y="108" fill="#8E9A92" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="12.5">work · study · daily life</text>
+
+    <rect class="motion" x="-240" y="134" width="240" height="2" fill="url(#scan)">
+      <animate attributeName="x" values="-240;1200" dur="8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
