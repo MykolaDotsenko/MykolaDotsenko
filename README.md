@@ -30,7 +30,7 @@ I use **AI where it earns its place**: model-assisted features connected to real
 
 ## Production engineering
 
-I currently work as a **Software Developer at Techco / Bo in Finland**. Most of that code is private, so I focus here on the kind of engineering problems I work on rather than internal product details.
+I currently work as a **Software Developer at Techco** in Finland, mainly building products for our client **Bo**. Most of that code is private, so here I describe the kinds of problems I solve rather than internal product details.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/production-flow-dark.svg">
