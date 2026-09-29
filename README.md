@@ -18,6 +18,16 @@ Turku, Finland · originally from Ukraine · open to relocation
   <img alt="Mykola Dotsenko — backend, frontend, data, AI integrations and AgriTech" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-light.svg?v=20260929b" width="100%">
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/celtic-divider-dark.svg?v=20260929a">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/celtic-divider-light.svg?v=20260929a">
+  <img alt="Celtic-inspired green divider blending AgriTech and software themes" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/celtic-divider-light.svg?v=20260929a" width="100%">
+</picture>
+
+<div align="center">
+  <sub>Field roots · software systems · AgriTech decision support</sub>
+</div>
+
 ## About
 
 I build software across **backend, frontend and data flows**, especially where integrations and AI-enabled features have to behave reliably in a real product.
@@ -55,7 +65,7 @@ My production work has included **identity resolution, multi-source reconciliati
 
 <div align="center">
 
-<sub>Backend depth · frontend delivery · data discipline · AI where it earns its place.</sub>
+<sub>Backend depth · frontend delivery · data discipline · AgriTech perspective · AI where it earns its place.</sub>
 
 </div>
 
@@ -70,6 +80,12 @@ Before becoming a developer, I spent **8+ years across agriculture, greenhouse a
 That earlier work still shapes how I build software. Accounting taught me to ask **where a number came from**. Agriculture taught me that software eventually meets weather, timing, labour, machinery and biology. Sales and operations taught me that technically correct software can still be useless if it does not fit the way people actually work.
 
 I keep my older learning repositories public too. Some are simple and clearly early work; that is fine. They show the path instead of pretending I started at the finish line.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/celtic-divider-dark.svg?v=20260929a">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/celtic-divider-light.svg?v=20260929a">
+  <img alt="Celtic-inspired green divider blending AgriTech and software themes" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/celtic-divider-light.svg?v=20260929a" width="100%">
+</picture>
 
 ## AgriTech
 
