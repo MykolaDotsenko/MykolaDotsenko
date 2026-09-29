@@ -4,7 +4,7 @@
 
 **Software Engineer · Backend & Frontend · Data & AI Integrations · AgriTech**
 
-Turku, Finland · originally from Ukraine · open to relocation
+Turku, Finland · open to relocation
 
 [Portfolio](https://mykoladotsenko.github.io/developer-profile/) · [Resume](https://mykoladotsenko.github.io/developer-profile/resume.html) · [LinkedIn](https://www.linkedin.com/in/mykola-dotsenko/) · [Email](mailto:docnikolaj1990@gmail.com)
 
@@ -108,7 +108,7 @@ C# · ASP.NET Core · Entity Framework Core · Angular · Node.js · SQL Server 
 
 I did not arrive in software through a straight line.
 
-Before becoming a developer, I spent **8+ years across agriculture, greenhouse and food production, accounting, sales and business operations**. Later I rebuilt my career around software engineering in Finland.
+Before becoming a developer, I spent **8+ years across agriculture, greenhouse and food production, accounting, sales and business operations**. Later I moved from Ukraine to Finland and rebuilt my career around software engineering.
 
 **Agriculture → business & operations → software engineering → backend/data → AgriTech**
 
