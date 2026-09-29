@@ -35,21 +35,22 @@
     <text x="82" y="107" fill="#9EB78E" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11" letter-spacing="1.8">MESSY INPUTS</text>
     <text x="82" y="137" fill="#EDF2EC" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="750">APIs · legacy systems</text>
     <text x="82" y="159" fill="#EDF2EC" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="750">real users</text>
-    <text x="82" y="185" fill="#8F9B93" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="12.5">stale data · duplicates · missing state</text>
-    <text x="82" y="206" fill="#8F9B93" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="12.5">conflicting ownership · imperfect workflows</text>
+    <text x="82" y="185" fill="#8F9B93" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="11.5">stale data · duplicates · missing state</text>
+    <text x="82" y="206" fill="#8F9B93" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="11.5">conflicting ownership · imperfect workflows</text>
 
     <rect x="444" y="78" width="312" height="140" rx="20" fill="#101814" stroke="#9EB78E" stroke-opacity=".62"/>
     <text x="468" y="107" fill="#C0D8B3" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11" letter-spacing="1.8">ENGINEERING</text>
-    <text x="468" y="138" fill="#EDF2EC" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="20" font-weight="760">rules · state · evidence · UX</text>
-    <text x="468" y="165" fill="#8F9B93" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="12.5">source of truth · retries · validation</text>
-    <text x="468" y="186" fill="#8F9B93" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="12.5">loading/error states · fallbacks · observability</text>
+    <text x="468" y="137" fill="#EDF2EC" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="20" font-weight="760">rules · state</text>
+    <text x="468" y="159" fill="#EDF2EC" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="20" font-weight="760">evidence · UX</text>
+    <text x="468" y="185" fill="#8F9B93" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="11.5">source of truth · retries · validation</text>
+    <text x="468" y="206" fill="#8F9B93" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="11.5">loading/error states · fallbacks · observability</text>
 
     <rect x="830" y="78" width="312" height="140" rx="18" fill="#121A17" stroke="#29342D"/>
     <text x="854" y="107" fill="#9EB78E" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11" letter-spacing="1.8">USEFUL OUTPUT</text>
     <text x="854" y="137" fill="#EDF2EC" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="750">clear interfaces</text>
     <text x="854" y="159" fill="#EDF2EC" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="19" font-weight="750">reliable workflows</text>
-    <text x="854" y="185" fill="#8F9B93" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="12.5">understandable state · safer decisions</text>
-    <text x="854" y="206" fill="#8F9B93" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="12.5">software people can actually trust</text>
+    <text x="854" y="185" fill="#8F9B93" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="11.5">understandable state · safer decisions</text>
+    <text x="854" y="206" fill="#8F9B93" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="11.5">software people can actually trust</text>
 
     <path id="flow1" d="M370 148C398 148 416 148 444 148" fill="none" stroke="#3B4B3D" stroke-width="2.4"/>
     <path id="flow2" d="M756 148C784 148 802 148 830 148" fill="none" stroke="#3B4B3D" stroke-width="2.4"/>
