@@ -140,7 +140,7 @@ I want financial and agronomic logic to stay deterministic and auditable. AI can
 
 - **MSc Software Engineering** — National Technical University “Kharkiv Polytechnic Institute” — *in progress*
 - **CS50: Introduction to Computer Science** — Harvard University (edX) — 2024
-- **Junior Specialist in Agronomy** — Novy Buh Agrarian College — 2016–2019
+- **Diploma in Agronomy** — Novy Buh Agrarian College — 2016–2019
 - **Master’s degree in Accounting & Auditing (with honors)** — Mykolayiv National Agrarian University — 2007–2012
 - **Current learning:** AWS architecture / Solutions Architect Associate preparation · Finnish
 
