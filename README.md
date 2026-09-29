@@ -38,6 +38,41 @@ I currently work as a **Software Developer at Techco / Bo in Finland**. Most of 
 
 My production work has included **identity resolution, multi-source reconciliation, document synchronization, API integrations, retry-safe processing, source-of-truth rules, search optimization and incident investigation**.
 
+## Selected projects
+
+Public side projects where the same engineering habits show up: stale data, explicit confidence, deterministic rules and failure states that stay visible.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/MykolaDotsenko/foli-live-departures">Turku Departures</a></strong> · <a href="https://mykoladotsenko.github.io/foli-live-departures/">live</a><br>
+      <sub>Live Föli departures, disruptions and a get-off alert for Turku — privacy-first PWA, no account.</sub><br><br>
+      <sub><b>Why it is interesting:</b> realtime data that goes stale without failing, after-midnight GTFS trips, loop routes, weak GPS and late responses after a stop switch. Scheduled and realtime departures never look equally certain. Live API contract smoke tests catch upstream drift.</sub><br><br>
+      <sub><code>React</code> <code>Vite</code> <code>PWA</code> <code>Vitest</code> <code>Playwright</code> <code>axe-core</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/MykolaDotsenko/shopping-budget-companion">Shopping Budget Companion</a></strong> · <a href="https://mykoladotsenko.github.io/shopping-budget-companion/">live</a><br>
+      <sub>Shows how much you can still safely put in the basket while shopping, then reconciles the trip with the receipt.</sub><br><br>
+      <sub><b>Why it is interesting:</b> money handled as a domain rule, checkout treated as reconciliation, storage failures that never silently lose a trip, offline-first. Camera tools (barcode, CLIP product recognition, OCR shelf prices) only suggest — the user decides the price.</sub><br><br>
+      <sub><code>React 19</code> <code>TypeScript</code> <code>Zod</code> <code>Workbox</code> <code>Transformers.js</code> <code>Tesseract.js</code> <code>fast-check</code> <code>Playwright</code></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/MykolaDotsenko/pakettitutka">Pakettitutka</a></strong> · <a href="https://pakettitutka.vercel.app/">live</a><br>
+      <sub>Finnish parcel price comparison built on each carrier’s published tariff rules, not generic estimates.</sub><br><br>
+      <sub><b>Why it is interesting:</b> volumetric weight, girth rules, fuel surcharges and Åland routing modelled per carrier. Every result carries an accuracy/confidence label with its source, and pricing that needs a live quote is explained instead of approximated.</sub><br><br>
+      <sub><code>React 19</code> <code>TypeScript</code> <code>Vite</code> <code>Vitest</code> <code>Playwright</code> <code>Vercel</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/MykolaDotsenko/tradeoff-decision-lab">Tradeoff — Decision Lab</a></strong> · <a href="https://tradeoff-decision-lab.vercel.app/">live</a><br>
+      <sub>An explainable workspace for comparing options, stress-testing assumptions and seeing why a ranking changes.</sub><br><br>
+      <sub><b>Why it is interesting:</b> score, evidence confidence and sensitivity stay separate instead of one opaque number. Ranking is deterministic; the optional AI copilot drafts and questions but never ranks — the same principle I want for PROFIT.</sub><br><br>
+      <sub><code>React 19</code> <code>TypeScript</code> <code>Zod</code> <code>Vercel Functions</code> <code>Vitest</code> <code>Playwright</code></sub>
+    </td>
+  </tr>
+</table>
+
 ## Stack
 
 <picture>
