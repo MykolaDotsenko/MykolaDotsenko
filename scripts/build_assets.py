@@ -326,7 +326,7 @@ def hero(t):
     {text(734, 295, "ENGINEERING SIGNAL", t["label"], 11.5, MONO, spacing=1.5)}
     {text(734, 315, "reliable systems → useful decisions", t["text"], 15, SANS, 650)}
 
-    {text(72, 82, "SOFTWARE DEVELOPER · FINLAND", t["label"], 14.5, SANS, 750, 3.2)}
+    {text(72, 82, "SOFTWARE ENGINEER · FINLAND", t["label"], 14.5, SANS, 750, 3.2)}
     <text x="72" y="140" fill="{t["text"]}" font-family="{SERIF}" font-size="38" font-weight="700">
       <tspan x="72" dy="0">I build trustworthy software</tspan>
       <tspan x="72" dy="46">for messy reality.</tspan>
@@ -335,7 +335,7 @@ def hero(t):
     {text(72, 272, "backend depth · frontend delivery · data discipline · AgriTech perspective", t["muted"], 16)}
     <g opacity=".6">{band}</g>
   </g>"""
-    return svg(W, H, "Mykola Dotsenko — Software Developer",
+    return svg(W, H, "Mykola Dotsenko — Software Engineer",
                "Banner with a field landscape, furrows, wheat and a Celtic triquetra sun; backend, frontend, data, AI "
                "and AgriTech are marked along the horizon.", body, defs)
 
