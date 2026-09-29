@@ -4,9 +4,9 @@
 
 **Software Engineer · Backend & Frontend · Data & AI Integrations · AgriTech**
 
-Turku, Finland · originally from Ukraine · open to relocation
+Turku, Finland · open to relocation
 
-[Portfolio](https://mykoladotsenko.github.io/developer-profile/) · [Resume](https://mykoladotsenko.github.io/developer-profile/resume.html) · [LinkedIn](https://www.linkedin.com/in/mykola-dotsenko/)
+[Portfolio](https://mykoladotsenko.github.io/developer-profile/) · [Resume](https://mykoladotsenko.github.io/developer-profile/resume.html) · [LinkedIn](https://www.linkedin.com/in/mykola-dotsenko/) · [Email](mailto:docnikolaj1990@gmail.com)
 
 </div>
 
@@ -81,7 +81,7 @@ Public side projects where the same engineering habits show up: stale data, expl
   <img alt="Capability map: backend, frontend, data systems and AI integrations feeding into AgriTech decision software" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/capability-map-light.svg?v=20260929-agri2" width="100%">
 </picture>
 
-| | |
+| Area | Technologies |
 |---|---|
 | **Backend** | Python · Django · DRF · Wagtail |
 | **Frontend** | TypeScript · React · Next.js · HTMX |
@@ -108,7 +108,7 @@ C# · ASP.NET Core · Entity Framework Core · Angular · Node.js · SQL Server 
 
 I did not arrive in software through a straight line.
 
-Before becoming a developer, I spent **8+ years across agriculture, greenhouse and food production, accounting, sales and business operations**. Later I rebuilt my career around software engineering in Finland.
+Before becoming a developer, I spent **8+ years across agriculture, greenhouse and food production, accounting, sales and business operations**. Later I moved from Ukraine to Finland and rebuilt my career around software engineering.
 
 **Agriculture → business & operations → software engineering → backend/data → AgriTech**
 
@@ -174,6 +174,10 @@ I am building my life and career in Finland while working, studying and learning
 ---
 
 <div align="center">
+
+**Open to backend and full-stack roles in data-heavy, integration-heavy or AgriTech products.**
+
+[docnikolaj1990@gmail.com](mailto:docnikolaj1990@gmail.com)
 
 <sub>Software where real data, clear interfaces and real decisions matter.</sub>
 
