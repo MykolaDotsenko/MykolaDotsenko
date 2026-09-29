@@ -43,9 +43,9 @@ My production work has included **identity resolution, multi-source reconciliati
 ## Across the stack
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/capability-map-dark.svg?v=20260929b">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/capability-map-light.svg?v=20260929b">
-  <img alt="Capability map: backend, frontend, data systems and AI integrations feeding into AgriTech decision software" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/capability-map-light.svg?v=20260929b" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/capability-map-dark.svg?v=20260929c">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/capability-map-light.svg?v=20260929c">
+  <img alt="Capability map: backend, frontend, data systems and AI integrations feeding into AgriTech decision software" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/capability-map-light.svg?v=20260929c" width="100%">
 </picture>
 
 **Backend:** Python · Django · DRF · Wagtail — APIs, domain rules, reliability and production debugging.  

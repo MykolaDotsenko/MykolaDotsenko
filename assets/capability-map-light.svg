@@ -47,7 +47,7 @@
     <text x="732" y="190" fill="#445149" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="14">Production · Revenue · Operations · Finance</text>
     <text x="732" y="216" fill="#445149" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="14">Intelligence · Trade · explainable decisions</text>
     <path d="M732 238H1098" stroke="#B6C6AF" stroke-width="1.4"/>
-    <text x="732" y="259" fill="#667268" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="11.5" letter-spacing=".6">reliable state · clear UI · explicit evidence · measurable value</text>
+    <text x="732" y="259" fill="#667268" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="9.6" letter-spacing=".25">reliable state · clear UI · explicit evidence · measurable value</text>
 
     <circle class="motion" r="4" fill="#6E915F" filter="url(#glow)">
       <animateMotion dur="4.8s" repeatCount="indefinite"><mpath href="#route1"/></animateMotion>
