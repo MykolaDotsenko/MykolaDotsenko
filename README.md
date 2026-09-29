@@ -11,9 +11,9 @@ Turku, Finland · open to relocation
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-dark.svg?v=20260929-agri2">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-light.svg?v=20260929-agri2">
-  <img alt="Mykola Dotsenko — I build trustworthy software for messy reality. Python/Django, React/Next.js, data and AI integrations, with an AgriTech perspective" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-light.svg?v=20260929-agri2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/profile-hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/profile-hero-light.svg">
+  <img alt="Mykola Dotsenko — I build trustworthy software for messy reality. Python/Django, React/Next.js, data and AI integrations, with an AgriTech perspective" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/profile-hero-light.svg" width="100%">
 </picture>
 
 ## About
@@ -22,33 +22,33 @@ I build software across **backend, frontend and data flows**, especially where i
 
 My deepest production experience is in **Python, Django, PostgreSQL and data-heavy integrations** — APIs, domain rules, reliability and production debugging. I am usually most interested when the problem is not neat yet: two systems disagree about the same person, an API quietly goes stale, a retry creates a duplicate, or nobody is completely sure which system owns the truth.
 
-On the frontend, I work with **TypeScript, React, Next.js and HTMX** and I am comfortable carrying a feature through to the interface — **responsive layouts, reusable component-based flows, localization, loading/error/empty states and product-facing interactions**.
+On the frontend, I work with **TypeScript, React, Next.js and HTMX**, and I am comfortable taking a feature all the way to the interface — **responsive layouts, reusable components, localization, loading/error/empty states and product-facing interactions**.
 
-I use **AI where it earns its place**: connecting model-assisted features to real workflows, attached to a clear product problem and surrounded by reliable software — deterministic business rules where they matter, explicit uncertainty, traceable data, visible failure states and an interface that makes the result understandable.
+I use **AI where it earns its place**: model-assisted features connected to real workflows and a clear product problem, surrounded by reliable software — deterministic business rules where they matter, traceable data and an interface that makes the result understandable.
 
 ## Production engineering
 
 I currently work as a **Software Developer at Techco / Bo in Finland**. Most of that code is private, so I focus here on the kind of engineering problems I work on rather than internal product details.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/production-flow-dark.svg?v=20260929-agri2">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/production-flow-light.svg?v=20260929-agri2">
-  <img alt="Production engineering flow: messy inputs through rules, state and evidence into clear interfaces and reliable workflows" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/production-flow-light.svg?v=20260929-agri2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/production-flow-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/production-flow-light.svg">
+  <img alt="Production engineering flow: messy inputs through rules, state and evidence into clear interfaces and reliable workflows" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/production-flow-light.svg" width="100%">
 </picture>
 
 My production work has included **identity resolution, multi-source reconciliation, document synchronization, API integrations, retry-safe processing, source-of-truth rules, search optimization and incident investigation**.
 
 ## Selected projects
 
-Public side projects where the same engineering habits show up: stale data, explicit confidence, deterministic rules and failure states that stay visible.
+Public side projects where the same engineering habits show up: handling stale data, explicit confidence levels, deterministic rules and failure states that stay visible.
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <strong><a href="https://github.com/MykolaDotsenko/foli-live-departures">Turku Departures</a></strong> · <a href="https://mykoladotsenko.github.io/foli-live-departures/">live</a><br>
       <sub>Live Föli departures, disruptions and a get-off alert for Turku — privacy-first PWA, no account.</sub><br><br>
-      <sub><b>Why it is interesting:</b> realtime data that goes stale without failing, after-midnight GTFS trips, loop routes, weak GPS and late responses after a stop switch. Scheduled and realtime departures never look equally certain. Live API contract smoke tests catch upstream drift.</sub><br><br>
-      <sub><code>React</code> <code>Vite</code> <code>PWA</code> <code>Vitest</code> <code>Playwright</code> <code>axe-core</code></sub>
+      <sub><b>Why it is interesting:</b> real-time data that silently goes stale, after-midnight GTFS trips, loop routes, weak GPS and late responses arriving after the user switches stops. Scheduled and real-time departures are never presented as equally certain. Live API contract smoke tests catch upstream drift.</sub><br><br>
+      <sub><code>React 18</code> <code>Vite</code> <code>PWA</code> <code>Vitest</code> <code>Playwright</code> <code>axe-core</code></sub>
     </td>
     <td width="50%" valign="top">
       <strong><a href="https://github.com/MykolaDotsenko/shopping-budget-companion">Shopping Budget Companion</a></strong> · <a href="https://mykoladotsenko.github.io/shopping-budget-companion/">live</a><br>
@@ -76,9 +76,9 @@ Public side projects where the same engineering habits show up: stale data, expl
 ## Stack
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/capability-map-dark.svg?v=20260929-agri2">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/capability-map-light.svg?v=20260929-agri2">
-  <img alt="Capability map: backend, frontend, data systems and AI integrations feeding into AgriTech decision software" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/capability-map-light.svg?v=20260929-agri2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/capability-map-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/capability-map-light.svg">
+  <img alt="Capability map: backend, frontend, data systems and AI integrations feeding into AgriTech decision software" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/capability-map-light.svg" width="100%">
 </picture>
 
 | Area | Technologies |
@@ -99,14 +99,14 @@ C# · ASP.NET Core · Entity Framework Core · Angular · Node.js · SQL Server 
 </details>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/celtic-divider-dark.svg?v=20260929-agri2">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/celtic-divider-light.svg?v=20260929-agri2">
-  <img alt="Celtic knot divider with a triquetra and wheat ears" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/celtic-divider-light.svg?v=20260929-agri2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/celtic-divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/celtic-divider-light.svg">
+  <img alt="Celtic knot divider with a triquetra and wheat ears" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/celtic-divider-light.svg" width="100%">
 </picture>
 
 ## From agriculture to software
 
-I did not arrive in software through a straight line.
+I did not take a straight path into software.
 
 Before becoming a developer, I spent **8+ years across agriculture, greenhouse and food production, accounting, sales and business operations**. Later I moved from Ukraine to Finland and rebuilt my career around software engineering.
 
@@ -118,7 +118,7 @@ I keep my older learning repositories public too. Some are simple and clearly ea
 
 ## AgriTech
 
-For me, AgriTech is not a theme added to my software profile. It is where that field and business experience meets backend, frontend, data and decision-support engineering. My academic direction includes farm decision support and forecasting production/economic data.
+For me, AgriTech is not a theme added to my software profile. It is where my agricultural and business experience meet backend, frontend, data and decision-support engineering. My academic work focuses on farm decision support and forecasting production and economic data.
 
 ### [PROFIT](https://github.com/MykolaDotsenko/PROFIT) — from farm data to profitable action
 
@@ -136,7 +136,7 @@ PROFIT is my longer-term AgriTech direction: connect production, operations and 
 
 I want financial and agronomic logic to stay deterministic and auditable. AI can help explain, explore or interact with that logic; it should not quietly become the source of quantitative truth.
 
-<sub>Current status: product planning, architecture and farmer-facing validation are in progress.</sub>
+<sub>Current status: product planning and architecture are in progress; validation with farmers is still open.</sub>
 
 ## Engineering principles
 
@@ -160,9 +160,9 @@ I want financial and agronomic logic to stay deterministic and auditable. AI can
 ## Now & education
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/current-focus-dark.svg?v=20260929-agri2">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/current-focus-light.svg?v=20260929-agri2">
-  <img alt="Now: production software, MSc Software Engineering, AWS architecture / Solutions Architect Associate preparation and Finnish" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/current-focus-light.svg?v=20260929-agri2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/current-focus-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/current-focus-light.svg">
+  <img alt="Now: production software, MSc Software Engineering, AWS architecture / Solutions Architect Associate preparation and Finnish" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/current-focus-light.svg" width="100%">
 </picture>
 
 - **MSc Software Engineering, NTU “KhPI”** — *in progress*

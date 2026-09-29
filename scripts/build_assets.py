@@ -5,6 +5,11 @@ Visual language: fields, furrows, wheat and sprouts (agriculture) with a
 light touch of Irish Celtic ornament (triquetra, interlaced plait bands).
 
 Run from the repository root:  python3 scripts/build_assets.py
+
+README image URLs are pinned to the commit that contains the artwork
+(raw.githubusercontent.com/.../<commit>/assets/...), so GitHub's image cache
+can never serve an outdated version. After regenerating, commit the assets
+first, then point the README URLs at that commit.
 """
 
 from __future__ import annotations
@@ -19,13 +24,13 @@ THEMES = {
         "bg0": "#0E1512", "bg1": "#131D16", "card": "#152019", "card_hi": "#18261C",
         "stroke": "#2A3A2E", "grid": "#1C2820", "text": "#EEF2E6", "muted": "#9AA894",
         "label": "#A9C78F", "accent": "#8FBF73", "gold": "#D8B868", "soil": "#6E5438",
-        "line": "#3E5341", "hill1": "#17261B", "hill2": "#1C2F20", "field": "#1A2A1D",
+        "line": "#3E5341", "hill1": "#17261B", "hill2": "#1C2F20", "field": "#22362A",
         "furrow": "#2C4230", "shadow": ".42", "glow": ".30",
     },
     "light": {
         "bg0": "#F8F6EC", "bg1": "#EEF2E3", "card": "#FFFEF8", "card_hi": "#F4F7EC",
-        "stroke": "#D8DDC8", "grid": "#E7EADB", "text": "#1D2A1F", "muted": "#5F6B5C",
-        "label": "#4F7A3D", "accent": "#5E8F48", "gold": "#A8822C", "soil": "#B89A72",
+        "stroke": "#D8DDC8", "grid": "#E7EADB", "text": "#1D2A1F", "muted": "#535E50",
+        "label": "#44693A", "accent": "#5E8F48", "gold": "#A8822C", "soil": "#B89A72",
         "line": "#B9C6AE", "hill1": "#E3EAD3", "hill2": "#D6E2C4", "field": "#DCE6CB",
         "furrow": "#C2D1AE", "shadow": ".10", "glow": ".22",
     },
@@ -229,7 +234,7 @@ def card_bg(t, x, y, w, h, rx, uid):
         f'<linearGradient id="{uid}" x1="0" y1="0" x2="1" y2="1">'
         f'<stop offset="0" stop-color="{t["bg0"]}"/><stop offset="1" stop-color="{t["bg1"]}"/></linearGradient>'
         f'<filter id="{uid}s" x="-10%" y="-20%" width="120%" height="150%">'
-        f'<feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#000" flood-opacity="{t["shadow"]}"/></filter>'
+        f'<feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#000" flood-opacity="{t["shadow"]}"/></filter>'
         f'<clipPath id="{uid}c"><rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{rx}"/></clipPath>'
     )
 
@@ -238,13 +243,6 @@ def outer(x, y, w, h, rx, uid, t):
     return (
         f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{rx}" fill="url(#{uid})" filter="url(#{uid}s)"/>'
         f'<rect x="{x + .5}" y="{y + .5}" width="{w - 1}" height="{h - 1}" rx="{rx - .5}" fill="none" stroke="{t["stroke"]}"/>'
-    )
-
-
-def corner_knots(t, x, y, w, h, inset=26, r=7):
-    return "".join(
-        f'<g opacity=".7">{triquetra(cx, cy, r, t["line"], 1.2, ring=False)}</g>'
-        for cx, cy in ((x + inset, y + inset), (x + w - inset, y + inset))
     )
 
 
@@ -292,22 +290,22 @@ def hero(t):
         f'<path d="M600 214C690 170 780 150 870 170C950 188 1010 150 1090 138C1130 132 1160 136 1182 142V342H600Z" fill="{t["hill1"]}"/>'
         f'<path d="M640 238C720 200 800 196 880 212C960 228 1040 196 1120 178C1150 172 1170 172 1182 174V342H640Z" fill="{t["hill2"]}" opacity=".9"/>'
     )
-    nodes = [(760, "BACKEND"), (846, "FRONTEND"), (932, "DATA"), (1012, "AI"), (1100, "AGRITECH")]
-    signal = f"M700 {f(crest_y(700))}L{poly(crest_y, 700, 1160)}"
+    nodes = [(760, "BACKEND"), (846, "FRONTEND"), (932, "DATA"), (1008, "AI"), (1070, "AGRITECH")]
+    signal = f"M700 {f(crest_y(700))}L{poly(crest_y, 700, 1082)}"
     node_svg = []
     for i, (nx, lab) in enumerate(nodes):
         ny = crest_y(nx)
         fill = t["gold"] if lab == "AGRITECH" else t["accent"]
         node_svg.append(f'<path d="M{nx} {f(ny - 7)}V{f(ny - 18)}" stroke="{t["line"]}" stroke-width="1"/>')
         node_svg.append(f'<circle cx="{nx}" cy="{f(ny)}" r="4.6" fill="{fill}"/>')
-        node_svg.append(text(nx, ny - 24, lab, t["muted"], 9.5, MONO, spacing=1.1, anchor="middle"))
+        node_svg.append(text(nx, ny - 24, lab, t["muted"], 12, MONO, spacing=.8, anchor="middle"))
         del i
 
     wheats = "".join(
         wheat(x, 346, h, a, t["soil"], t["gold"]) for x, h, a in
-        ((1118, 88, -8), (1134, 104, 3), (1150, 92, 12), (1166, 78, 20), (1102, 72, -18))
+        ((1106, 88, -8), (1122, 104, 3), (1138, 92, 12), (1154, 78, 18))
     )
-    band_defs, band = plait("hb", 72, 520, 322, 4.2, 26, t["line"], 1.6, gap=2.4)
+    band_defs, band = plait("hb", 72, 520, 322, 5, 28, t["accent"], 2.0, gap=2.6)
     defs += band_defs
 
     body = f"""  {outer(18, 18, 1164, 324, 28, "bg", t)}
@@ -321,12 +319,12 @@ def hero(t):
     <circle cx="1088" cy="96" r="44" fill="none" stroke="{t["gold"]}" stroke-width="1" opacity=".45"/>
     {"".join(node_svg)}
     <circle class="motion" r="3.6" fill="{t["gold"]}" filter="url(#glow)">
-      <animateMotion dur="7s" repeatCount="indefinite"><mpath href="#signalPath"/></animateMotion>
+      <animateMotion dur="7s" repeatCount="3" fill="freeze"><mpath href="#signalPath"/></animateMotion>
     </circle>
     {wheats}
-    <rect x="716" y="274" width="316" height="52" rx="12" fill="{t["card"]}" fill-opacity=".94" stroke="{t["stroke"]}"/>
-    {text(734, 295, "ENGINEERING SIGNAL", t["label"], 10, MONO, spacing=1.5)}
-    {text(734, 315, "reliable systems → useful decisions", t["text"], 14, SANS, 650)}
+    <rect x="716" y="274" width="340" height="52" rx="12" fill="{t["card"]}" fill-opacity=".94" stroke="{t["stroke"]}"/>
+    {text(734, 295, "ENGINEERING SIGNAL", t["label"], 11.5, MONO, spacing=1.5)}
+    {text(734, 315, "reliable systems → useful decisions", t["text"], 15, SANS, 650)}
 
     {text(72, 82, "SOFTWARE ENGINEER · FINLAND", t["label"], 14.5, SANS, 750, 3.2)}
     <text x="72" y="140" fill="{t["text"]}" font-family="{SERIF}" font-size="38" font-weight="700">
@@ -334,8 +332,8 @@ def hero(t):
       <tspan x="72" dy="46">for messy reality.</tspan>
     </text>
     {text(72, 240, "Python / Django · React / Next.js · Data · AI Integrations", t["text"], 17.5, SANS, 500)}
-    {text(72, 272, "backend depth · frontend delivery · data discipline · AgriTech perspective", t["muted"], 14.5)}
-    {band}
+    {text(72, 272, "backend depth · frontend delivery · data discipline · AgriTech perspective", t["muted"], 16)}
+    <g opacity=".6">{band}</g>
   </g>"""
     return svg(W, H, "Mykola Dotsenko — Software Engineer",
                "Banner with a field landscape, furrows, wheat and a Celtic triquetra sun; backend, frontend, data, AI "
@@ -344,13 +342,13 @@ def hero(t):
 
 def divider(t):
     W, H = 1200, 80
-    d1, b1 = plait("dl", 40, 520, 40, 7, 34, t["accent"], 2.0, gap=2.6)
-    d2, b2 = plait("dr", 680, 1160, 40, 7, 34, t["accent"], 2.0, gap=2.6)
+    d1, b1 = plait("dl", 40, 510, 40, 7, 34, t["accent"], 2.0, gap=2.6)
+    d2, b2 = plait("dr", 690, 1160, 40, 7, 34, t["accent"], 2.0, gap=2.6)
     body = f"""  {b1}{b2}
   <circle cx="600" cy="40" r="30" fill="none" stroke="{t["gold"]}" stroke-width="1.4" opacity=".55"/>
   {triquetra(600, 40, 24, t["gold"], 2.2, ring_stroke=t["accent"])}
-  {wheat(548, 58, 34, -62, t["soil"], t["gold"], grains=4)}
-  {wheat(652, 58, 34, 62, t["soil"], t["gold"], grains=4)}"""
+  {wheat(556, 62, 34, -40, t["soil"], t["gold"], grains=4)}
+  {wheat(644, 62, 34, 40, t["soil"], t["gold"], grains=4)}"""
     return svg(W, H, "Celtic knot and wheat divider",
                "An interlaced Celtic plait with a triquetra and two wheat ears at the centre.", body, d1 + d2)
 
@@ -378,22 +376,22 @@ def production_flow(t):
         stroke = t["accent"] if hi else t["stroke"]
         out.append(f'<rect x="{x}" y="86" width="350" height="156" rx="18" fill="{t["card_hi"] if hi else t["card"]}" '
                    f'stroke="{stroke}" stroke-opacity="{".7" if hi else "1"}"/>')
-        out.append(text(x + 24, 116, lab, t["label"], 10.5, MONO, spacing=1.6))
+        out.append(text(x + 24, 116, lab, t["label"], 12, MONO, spacing=1.2))
         out.append(text(x + 24, 148, titles[0], t["text"], 19, SANS, 720))
         out.append(text(x + 24, 172, titles[1], t["text"], 19, SANS, 720))
-        out.append(text(x + 24, 202, subs[0], t["muted"], 11.5))
-        out.append(text(x + 24, 222, subs[1], t["muted"], 11.5))
+        out.append(text(x + 24, 202, subs[0], t["muted"], 12.5))
+        out.append(text(x + 24, 222, subs[1], t["muted"], 12.5))
         out.append(icon)
     links = (
         f'<path id="flow1" d="M390 164H425" stroke="{t["line"]}" stroke-width="2" stroke-dasharray="3 4"/>'
         f'<path id="flow2" d="M775 164H810" stroke="{t["line"]}" stroke-width="2" stroke-dasharray="3 4"/>'
-        f'<circle class="motion" r="3.6" fill="{t["gold"]}" filter="url(#glow)"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath href="#flow1"/></animateMotion></circle>'
-        f'<circle class="motion" r="3.6" fill="{t["gold"]}" filter="url(#glow)"><animateMotion dur="2.6s" begin="-1.3s" repeatCount="indefinite"><mpath href="#flow2"/></animateMotion></circle>'
+        f'<circle class="motion" r="3.6" fill="{t["gold"]}" filter="url(#glow)"><animateMotion dur="2.6s" repeatCount="3" fill="freeze"><mpath href="#flow1"/></animateMotion></circle>'
+        f'<circle class="motion" r="3.6" fill="{t["gold"]}" filter="url(#glow)"><animateMotion dur="2.6s" begin="-1.3s" repeatCount="3" fill="freeze"><mpath href="#flow2"/></animateMotion></circle>'
     )
-    bd, band = plait("pb", 520, 1150, 55, 3.6, 24, t["line"], 1.4, gap=2.2)
+    bd, band = plait("pb", 640, 1150, 55, 3.6, 24, t["line"], 1.4, gap=2.2)
     body = f"""  {outer(18, 18, 1164, 254, 26, "bg", t)}
   <g clip-path="url(#bgc)">
-    {text(42, 60, "PRODUCTION LENS / TURNING MESSY REALITY INTO USEFUL SOFTWARE", t["muted"], 10.8, MONO, spacing=2)}
+    {text(42, 60, "PRODUCTION LENS / TURNING MESSY REALITY INTO USEFUL SOFTWARE", t["muted"], 12, MONO, spacing=1.2)}
     {band}
     {"".join(out)}
     {links}
@@ -420,9 +418,9 @@ def capability_map(t):
     out = []
     for x, y, lab, title, sub, icon in small:
         out.append(f'<rect x="{x}" y="{y}" width="262" height="90" rx="16" fill="{t["card"]}" stroke="{t["stroke"]}"/>')
-        out.append(text(x + 20, y + 28, lab, t["label"], 10.5, MONO, spacing=1.4))
+        out.append(text(x + 20, y + 28, lab, t["label"], 11.5, MONO, spacing=.8))
         out.append(text(x + 20, y + 56, title, t["text"], 16, SANS, 700))
-        out.append(text(x + 20, y + 76, sub, t["muted"], 12))
+        out.append(text(x + 20, y + 76, sub, t["muted"], 13))
         out.append(icon)
 
     strip_y = lambda x: 272 - 9 * math.sin((x - 650) / 70) - 5 * math.sin((x - 650) / 29)  # noqa: E731
@@ -435,14 +433,14 @@ def capability_map(t):
       <path d="{strip}" fill="{t["field"]}"/>
       <clipPath id="strip"><path d="{strip}"/></clipPath>
       <g clip-path="url(#strip)">{furrows}</g>
-      {wheat(1110, 300, 58, -6, t["soil"], t["gold"], grains=5)}{wheat(1126, 300, 68, 6, t["soil"], t["gold"], grains=5)}{wheat(1140, 300, 52, 16, t["soil"], t["gold"], grains=4)}
+      {wheat(1120, 302, 48, -6, t["soil"], t["gold"], grains=4)}{wheat(1133, 302, 54, 5, t["soil"], t["gold"], grains=4)}{wheat(1144, 302, 44, 12, t["soil"], t["gold"], grains=4)}
     </g>
     {triquetra(1124, 120, 14, t["gold"], 1.6)}
-    {text(676, 120, "AGRITECH / DECISION SOFTWARE", t["label"], 10.5, MONO, spacing=1.8)}
+    {text(676, 120, "AGRITECH / DECISION SOFTWARE", t["label"], 12, MONO, spacing=1.4)}
     {text(676, 156, "Real data → useful action", t["text"], 24, SERIF, 700)}
-    {text(676, 186, "Production · Revenue · Operations · Finance", t["text"], 14)}
-    {text(676, 208, "Intelligence · Trade · explainable decisions", t["text"], 14)}
-    {text(676, 236, "reliable state · clear UI · explicit evidence · measurable value", t["muted"], 9.8, MONO)}"""
+    {text(676, 186, "Production · Revenue · Operations · Finance", t["text"], 15)}
+    {text(676, 208, "Intelligence · Trade · explainable decisions", t["text"], 15)}
+    {text(676, 236, "reliable state · clear UI · explicit evidence · measurable value", t["muted"], 11, MONO)}"""
 
     routes = [
         ("r1", "M308 133H330"), ("r2", "M308 255H330"),
@@ -451,12 +449,12 @@ def capability_map(t):
     rt = "".join(f'<path id="{i}" d="{d}" fill="none" stroke="{t["line"]}" stroke-width="2" stroke-dasharray="3 4"/>' for i, d in routes)
     dots = "".join(
         f'<circle class="motion" r="3.4" fill="{t["gold"]}" filter="url(#glow)"><animateMotion dur="{dur}s" begin="{b}s" '
-        f'repeatCount="indefinite"><mpath href="#{i}"/></animateMotion></circle>'
+        f'repeatCount="3" fill="freeze"><mpath href="#{i}"/></animateMotion></circle>'
         for (i, _), dur, b in zip(routes, (2.4, 2.8, 3.2, 3.6), (0, -.9, -1.6, -.4))
     )
     body = f"""  {outer(18, 18, 1164, 304, 26, "bg", t)}
   <g clip-path="url(#bgc)">
-    {text(46, 60, "ENGINEERING MAP / ROOTS, LEAVES, SOIL AND SUN FEED THE CROP", t["muted"], 10.8, MONO, spacing=2)}
+    {text(46, 60, "ENGINEERING MAP / ROOTS, LEAVES, SOIL AND SUN FEED THE CROP", t["muted"], 12, MONO, spacing=1.2)}
     {rt}{"".join(out)}{agri}{dots}
   </g>"""
     return svg(W, H, "Engineering capability map",
@@ -471,25 +469,25 @@ def current_focus(t):
     cols = [
         (48, "WORK", "Production software", "backend · frontend · data", sprout(290, 118, .8, t["soil"], t["accent"])),
         (336, "STUDY", "MSc Software Engineering", "decision support · forecasting", seed(578, 118, .8, t["gold"], t["soil"])),
-        (624, "CLOUD", "AWS architecture", "Solutions Architect Associate", sun(866, 118, .85, t["gold"])),
+        (624, "CLOUD", "AWS architecture", "Solutions Architect Associate prep", sun(866, 118, .85, t["gold"])),
         (912, "FINLAND", "Finnish", "work · study · daily life", pine(1152, 118, 1, t["accent"], t["soil"])),
     ]
     out = []
     for x, lab, title, sub, icon in cols:
-        out.append(text(x, 124, lab, t["label"], 10.5, MONO, spacing=1.5))
+        out.append(text(x, 124, lab, t["label"], 12, MONO, spacing=1.2))
         out.append(text(x, 152, title, t["text"], 16, SANS, 700))
-        out.append(text(x, 174, sub, t["muted"], 12.5))
+        out.append(text(x, 174, sub, t["muted"], 13))
         out.append(icon)
     seps = "".join(f'<path d="M{x} 110V178" stroke="{t["stroke"]}"/>' for x in (318, 606, 894))
     body = f"""  {outer(18, 18, 1164, 174, 22, "bg", t)}
   <g clip-path="url(#bgc)">
-    {text(48, 58, "NOW / 2026", t["label"], 11, MONO, spacing=2.4)}
+    {text(48, 58, "NOW / 2026", t["label"], 12, MONO, spacing=2)}
     {text(48, 88, "building while learning", t["text"], 22, SERIF, 700)}
     {band}{seps}{"".join(out)}
   </g>"""
     return svg(W, H, "Current focus",
                "Current focus: production software, MSc Software Engineering, AWS architecture (Solutions Architect "
-               "Associate) and Finnish.", body, defs + bd)
+               "Associate preparation) and Finnish.", body, defs + bd)
 
 
 def main():
