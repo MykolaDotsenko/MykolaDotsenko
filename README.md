@@ -6,7 +6,7 @@
 
 Turku, Finland · originally from Ukraine · open to relocation
 
-[Portfolio](https://mykoladotsenko.github.io/developer-profile/) · [Resume](https://mykoladotsenko.github.io/developer-profile/resume.html) · [LinkedIn](https://www.linkedin.com/in/mykola-dotsenko/)
+[Portfolio](https://mykoladotsenko.github.io/developer-profile/) · [Resume](https://mykoladotsenko.github.io/developer-profile/resume.html) · [LinkedIn](https://www.linkedin.com/in/mykola-dotsenko/) · [Email](mailto:docnikolaj1990@gmail.com)
 
 </div>
 
@@ -81,7 +81,7 @@ Public side projects where the same engineering habits show up: stale data, expl
   <img alt="Capability map: backend, frontend, data systems and AI integrations feeding into AgriTech decision software" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/capability-map-light.svg?v=20260929-agri2" width="100%">
 </picture>
 
-| | |
+| Area | Technologies |
 |---|---|
 | **Backend** | Python · Django · DRF · Wagtail |
 | **Frontend** | TypeScript · React · Next.js · HTMX |
@@ -174,6 +174,10 @@ I am building my life and career in Finland while working, studying and learning
 ---
 
 <div align="center">
+
+**Open to backend and full-stack roles in data-heavy, integration-heavy or AgriTech products.**
+
+[docnikolaj1990@gmail.com](mailto:docnikolaj1990@gmail.com)
 
 <sub>Software where real data, clear interfaces and real decisions matter.</sub>
 
