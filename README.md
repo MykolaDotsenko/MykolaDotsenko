@@ -65,10 +65,10 @@ Public side projects where the same engineering habits show up: stale data, expl
       <sub><code>React 19</code> <code>TypeScript</code> <code>Vite</code> <code>Vitest</code> <code>Playwright</code> <code>Vercel</code></sub>
     </td>
     <td width="50%" valign="top">
-      <strong><a href="https://github.com/MykolaDotsenko/tradeoff-decision-lab">Tradeoff — Decision Lab</a></strong> · <a href="https://tradeoff-decision-lab.vercel.app/">live</a><br>
-      <sub>An explainable workspace for comparing options, stress-testing assumptions and seeing why a ranking changes.</sub><br><br>
-      <sub><b>Why it is interesting:</b> score, evidence confidence and sensitivity stay separate instead of one opaque number. Ranking is deterministic; the optional AI copilot drafts and questions but never ranks — the same principle I want for PROFIT.</sub><br><br>
-      <sub><code>React 19</code> <code>TypeScript</code> <code>Zod</code> <code>Vercel Functions</code> <code>Vitest</code> <code>Playwright</code></sub>
+      <strong><a href="https://github.com/MykolaDotsenko/profit-website">PROFIT Website</a></strong> · <sub>pre-release</sub><br>
+      <sub>The public face of <a href="https://github.com/MykolaDotsenko/PROFIT">PROFIT</a>: explains to farmers, investors and partners how farm data turns into better economic decisions — and what evidence exists.</sub><br><br>
+      <sub><b>Why it is interesting:</b> “evidence before hype” is enforced in CI. Automated checks reject unsupported claims (“guaranteed profit”, “AI-powered”, “100% accurate”), validate the release evidence registry and localization, and no live URL is claimed until a real deployment passes every release gate.</sub><br><br>
+      <sub><code>Astro</code> <code>TypeScript</code> <code>Playwright</code> <code>GitHub Actions</code> <code>Vercel</code></sub>
     </td>
   </tr>
 </table>
