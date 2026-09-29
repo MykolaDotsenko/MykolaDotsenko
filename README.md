@@ -2,7 +2,9 @@
 
 # Mykola Dotsenko
 
-**Software Engineer · Python/Django · Backend, Data & AI Integrations · AgriTech**
+**Software Engineer · Backend, Data & Product Engineering · AgriTech**
+
+**Python/Django · TypeScript/React/Next.js · PostgreSQL · Integrations**
 
 Turku, Finland · originally from Ukraine · open to relocation
 
@@ -13,20 +15,20 @@ Turku, Finland · originally from Ukraine · open to relocation
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-light.svg">
-  <img alt="Mykola Dotsenko — backend, data, integrations and AgriTech" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-light.svg" width="100%">
+  <img alt="Mykola Dotsenko — backend, frontend, data, integrations and AgriTech" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-light.svg" width="100%">
 </picture>
 
 ## About
 
-I build backend and data-heavy software, mostly with **Python, Django and PostgreSQL**.
+I build software where **backend rules, data quality and the interface people actually use** all have to agree.
 
-I am usually most interested when the problem is not neat yet. Two systems disagree about the same person. An API quietly goes stale. A retry creates a duplicate. Nobody is completely sure which system owns the truth. An AI answer sounds convincing, but there is not enough evidence to trust it. Those are the situations that make me want to dig in.
+My strongest depth is in **Python, Django, PostgreSQL and production integrations**. I am usually most interested when the problem is not neat yet: two systems disagree about the same person, an API quietly goes stale, a retry creates a duplicate, or nobody is completely sure which system owns the truth.
 
-I like tracing a problem back to how the work actually happens outside the codebase — who uses the data, where it came from, what can go wrong, and what a wrong answer would mean for a real person. Quite often, the best bug fixes teach me something new about the business too.
+I am backend-focused, but not backend-only. I work with **TypeScript, React, Next.js and HTMX** and I am comfortable carrying a feature across the stack — from APIs, data models and synchronization logic to **responsive interfaces, component-based flows, localization, interaction states and product-facing UI**.
 
-I am backend-focused, but not backend-only. I work across **TypeScript, React, Next.js and HTMX** when that is what it takes to carry a feature all the way from a reliable rule in the backend to an interface that feels simple to use.
+I like tracing problems back to how the work actually happens outside the codebase: who uses the data, where it came from, what can go wrong, and what a wrong answer would mean for a real person.
 
-## Production
+## Production engineering
 
 I currently work as a **Software Developer at Techco / Bo in Finland**. Most of that code is private, so here I focus on the parts I can share.
 
@@ -49,11 +51,37 @@ I currently work as a **Software Developer at Techco / Bo in Finland**. Most of 
 
 My production work has included **identity resolution, multi-source reconciliation, document synchronization, API integrations, retry-safe processing, source-of-truth rules, search optimization and incident investigation**.
 
-The recurring lesson is simple:
+## Across the stack
 
-> **Correctness starts with knowing who owns the state, what evidence is authoritative, and what to do when that evidence is incomplete.**
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <strong>Backend</strong><br><br>
+      <code>Python</code> <code>Django</code> <code>DRF</code> <code>Wagtail</code><br><br>
+      APIs, domain rules, workflows, reliability and production debugging.
+    </td>
+    <td width="33%" valign="top">
+      <strong>Frontend</strong><br><br>
+      <code>TypeScript</code> <code>React</code> <code>Next.js</code> <code>HTMX</code><br><br>
+      Responsive UI, component-based flows, localization and interaction states.
+    </td>
+    <td width="33%" valign="top">
+      <strong>Data & integrations</strong><br><br>
+      <code>PostgreSQL</code> <code>SQL</code> <code>APIs</code><br><br>
+      Reconciliation, synchronization, identity resolution and source-of-truth logic.
+    </td>
+  </tr>
+</table>
 
-## The path here
+<div align="center">
+
+**data → backend rules → product logic → interface → real-world action**
+
+<sub>I like owning a problem far enough to see how it behaves in production — not just getting the code merged.</sub>
+
+</div>
+
+## From agriculture to software
 
 I did not arrive in software through a straight line.
 
@@ -61,15 +89,13 @@ Before becoming a developer, I spent **8+ years across agriculture, greenhouse a
 
 **Agriculture → business & operations → software engineering → backend/data → AgriTech**
 
-Those years are not a separate chapter I try to hide. They are a big part of how I think now.
+That earlier work still shapes how I build software. Accounting taught me to ask **where a number came from**. Agriculture taught me that software eventually meets weather, timing, labour, machinery and biology. Sales and operations taught me that technically correct software can still be useless if it does not fit the way people actually work.
 
-Accounting taught me to ask **where a number came from**. Agriculture taught me that software eventually meets weather, timing, labour, machinery and biology. Sales and operations taught me that technically correct software can still be useless if it does not fit the way people actually work.
-
-I keep my older learning repositories public for the same reason. Some are simple, some are clearly early work, and that is fine. They show the path instead of pretending I started at the finish line.
+I keep my older learning repositories public too. Some are simple and clearly early work; that is fine. They show the path instead of pretending I started at the finish line.
 
 ## AgriTech
 
-For me, AgriTech is not a theme I picked after moving into software. It is where my earlier work and my current engineering skills naturally meet.
+For me, AgriTech is where my earlier work and my current engineering skills naturally meet.
 
 I hold a completed **Master’s degree in Accounting & Auditing** and I am studying for an **MSc in Software Engineering at NTU “KhPI”**. My academic direction includes farm decision support and forecasting production/economic data.
 
@@ -89,11 +115,11 @@ I hold a completed **Master’s degree in Accounting & Auditing** and I am study
 
 PROFIT is my longer-term AgriTech direction: connect production, operations and economics without hiding uncertainty behind a dashboard.
 
-The idea matters to me because I have seen the other side of software decisions. A recommendation eventually reaches a field, a greenhouse, a budget, a worker or a business owner. That is why I want financial and agronomic logic to stay deterministic and auditable. AI can help explain or interact with that logic; it should not quietly become the source of truth.
+I want financial and agronomic logic to stay deterministic and auditable. AI can help explain or interact with that logic; it should not quietly become the source of truth.
 
 <sub>Current status: product planning, architecture and farmer-facing validation are in progress.</sub>
 
-## What I care about in software
+## Engineering principles
 
 <table>
   <tr>
@@ -107,26 +133,16 @@ The idea matters to me because I have seen the other side of software decisions.
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td colspan="2" valign="top">
       <strong>Make uncertainty visible.</strong><br>
-      <sub>Live, stale, missing and ambiguous are different states.</sub>
-    </td>
-    <td width="50%" valign="top">
-      <strong>Keep complexity earned.</strong><br>
-      <sub>Architecture should solve a real failure mode, not decorate the codebase.</sub>
+      <sub>Live, stale, missing and ambiguous are different states. I would rather show “unknown” than manufacture confidence.</sub>
     </td>
   </tr>
 </table>
 
-<div align="center">
+## Stack, study & now
 
-**I would rather show “unknown” than manufacture confidence.**
-
-</div>
-
-## Stack, study & life in Finland
-
-**Core:** Python · Django · DRF · Wagtail · PostgreSQL · SQL · HTMX · TypeScript · React · Next.js
+**Core:** Python · Django · DRF · Wagtail · PostgreSQL · SQL · TypeScript · React · Next.js · HTMX
 
 **Quality & delivery:** pytest · Vitest · Playwright · Ruff · mypy · GitHub Actions · Docker
 
@@ -134,14 +150,14 @@ The idea matters to me because I have seen the other side of software decisions.
 
 **Current learning:** AWS architecture / Solutions Architect Associate preparation · Finnish
 
-I am building my life and career in Finland while working, studying and learning the language. That part of the journey is still in progress too.
+I am building my life and career in Finland while working, studying and learning the language.
 
 <details>
 <summary><strong>Broader hands-on stack</strong></summary>
 
 <br>
 
-C# · ASP.NET Core · Entity Framework Core · Angular · SQL Server · MongoDB · Prisma · Supabase · Redis
+C# · ASP.NET Core · Entity Framework Core · Angular · Node.js · SQL Server · MongoDB · Prisma · Supabase · Redis
 
 </details>
 
@@ -151,6 +167,6 @@ C# · ASP.NET Core · Entity Framework Core · Angular · SQL Server · MongoDB 
 
 [LinkedIn](https://www.linkedin.com/in/mykola-dotsenko/) · [Portfolio](https://mykoladotsenko.github.io/developer-profile/) · [Resume](https://mykoladotsenko.github.io/developer-profile/resume.html)
 
-<sub>Software where real data, real constraints and real decisions matter.</sub>
+<sub>Software where real data, clear interfaces and real decisions matter.</sub>
 
 </div>
