@@ -4,7 +4,9 @@
 
 **Software Engineer · Backend & Frontend · Data & AI Integrations · AgriTech**
 
-Turku, Finland · open to relocation
+**3 years of professional software development** · English B2+ · Finnish A2 · Ukrainian native
+
+Turku, Finland · authorized to work in Finland · open to relocation
 
 [Portfolio](https://mykoladotsenko.github.io/developer-profile/) · [Resume](https://mykoladotsenko.github.io/developer-profile/resume.html) · [LinkedIn](https://www.linkedin.com/in/mykola-dotsenko/) · [Email](mailto:docnikolaj1990@gmail.com)
 
