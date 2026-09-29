@@ -38,41 +38,6 @@ I currently work as a **Software Developer at Techco / Bo in Finland**. Most of 
 
 My production work has included **identity resolution, multi-source reconciliation, document synchronization, API integrations, retry-safe processing, source-of-truth rules, search optimization and incident investigation**.
 
-## Selected projects
-
-Public side projects where the same engineering habits show up: handling stale data, explicit confidence levels, deterministic rules and failure states that stay visible.
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <strong><a href="https://github.com/MykolaDotsenko/foli-live-departures">Turku Departures</a></strong> · <a href="https://mykoladotsenko.github.io/foli-live-departures/">live</a><br>
-      <sub>Live Föli departures, disruptions and a get-off alert for Turku — privacy-first PWA, no account.</sub><br><br>
-      <sub><b>Why it is interesting:</b> real-time data that silently goes stale, after-midnight GTFS trips, loop routes, weak GPS and late responses arriving after the user switches stops. Scheduled and real-time departures are never presented as equally certain. Live API contract smoke tests catch upstream drift.</sub><br><br>
-      <sub><code>React 18</code> <code>Vite</code> <code>PWA</code> <code>Vitest</code> <code>Playwright</code> <code>axe-core</code></sub>
-    </td>
-    <td width="50%" valign="top">
-      <strong><a href="https://github.com/MykolaDotsenko/shopping-budget-companion">Shopping Budget Companion</a></strong> · <a href="https://mykoladotsenko.github.io/shopping-budget-companion/">live</a><br>
-      <sub>Shows how much you can still safely put in the basket while shopping, then reconciles the trip with the receipt.</sub><br><br>
-      <sub><b>Why it is interesting:</b> money handled as a domain rule, checkout treated as reconciliation, storage failures that never silently lose a trip, offline-first. Camera tools (barcode, CLIP product recognition, OCR shelf prices) only suggest — the user decides the price.</sub><br><br>
-      <sub><code>React 19</code> <code>TypeScript</code> <code>Zod</code> <code>Workbox</code> <code>Transformers.js</code> <code>Tesseract.js</code> <code>fast-check</code> <code>Playwright</code></sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <strong><a href="https://github.com/MykolaDotsenko/pakettitutka">Pakettitutka</a></strong> · <a href="https://pakettitutka.vercel.app/">live</a><br>
-      <sub>Finnish parcel price comparison built on each carrier’s published tariff rules, not generic estimates.</sub><br><br>
-      <sub><b>Why it is interesting:</b> volumetric weight, girth rules, fuel surcharges and Åland routing modelled per carrier. Every result carries an accuracy/confidence label with its source, and pricing that needs a live quote is explained instead of approximated.</sub><br><br>
-      <sub><code>React 19</code> <code>TypeScript</code> <code>Vite</code> <code>Vitest</code> <code>Playwright</code> <code>Vercel</code></sub>
-    </td>
-    <td width="50%" valign="top">
-      <strong><a href="https://github.com/MykolaDotsenko/profit-website">PROFIT Website</a></strong> · <sub>pre-release</sub><br>
-      <sub>The public face of <a href="https://github.com/MykolaDotsenko/PROFIT">PROFIT</a>: explains to farmers, investors and partners how farm data turns into better economic decisions — and what evidence exists.</sub><br><br>
-      <sub><b>Why it is interesting:</b> “evidence before hype” is enforced in CI. Automated checks reject unsupported claims (“guaranteed profit”, “AI-powered”, “100% accurate”), validate the release evidence registry and localization, and no live URL is claimed until a real deployment passes every release gate.</sub><br><br>
-      <sub><code>Astro</code> <code>TypeScript</code> <code>Playwright</code> <code>GitHub Actions</code> <code>Vercel</code></sub>
-    </td>
-  </tr>
-</table>
-
 ## Stack
 
 <picture>
@@ -170,6 +135,41 @@ I want financial and agronomic logic to stay deterministic and auditable. AI can
 - **Current learning:** AWS architecture / Solutions Architect Associate preparation · Finnish
 
 I am building my life and career in Finland while working, studying and learning the language.
+
+## Selected projects
+
+Public side projects where the same engineering habits show up: handling stale data, explicit confidence levels, deterministic rules and failure states that stay visible.
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/MykolaDotsenko/foli-live-departures">Turku Departures</a></strong> · <a href="https://mykoladotsenko.github.io/foli-live-departures/">live</a><br>
+      <sub>Live Föli departures, disruptions and a get-off alert for Turku — privacy-first PWA, no account.</sub><br><br>
+      <sub><b>Why it is interesting:</b> real-time data that silently goes stale, after-midnight GTFS trips, loop routes, weak GPS and late responses arriving after the user switches stops. Scheduled and real-time departures are never presented as equally certain. Live API contract smoke tests catch upstream drift.</sub><br><br>
+      <sub><code>React 18</code> <code>Vite</code> <code>PWA</code> <code>Vitest</code> <code>Playwright</code> <code>axe-core</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/MykolaDotsenko/shopping-budget-companion">Shopping Budget Companion</a></strong> · <a href="https://mykoladotsenko.github.io/shopping-budget-companion/">live</a><br>
+      <sub>Shows how much you can still safely put in the basket while shopping, then reconciles the trip with the receipt.</sub><br><br>
+      <sub><b>Why it is interesting:</b> money handled as a domain rule, checkout treated as reconciliation, storage failures that never silently lose a trip, offline-first. Camera tools (barcode, CLIP product recognition, OCR shelf prices) only suggest — the user decides the price.</sub><br><br>
+      <sub><code>React 19</code> <code>TypeScript</code> <code>Zod</code> <code>Workbox</code> <code>Transformers.js</code> <code>Tesseract.js</code> <code>fast-check</code> <code>Playwright</code></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/MykolaDotsenko/pakettitutka">Pakettitutka</a></strong> · <a href="https://pakettitutka.vercel.app/">live</a><br>
+      <sub>Finnish parcel price comparison built on each carrier’s published tariff rules, not generic estimates.</sub><br><br>
+      <sub><b>Why it is interesting:</b> volumetric weight, girth rules, fuel surcharges and Åland routing modelled per carrier. Every result carries an accuracy/confidence label with its source, and pricing that needs a live quote is explained instead of approximated.</sub><br><br>
+      <sub><code>React 19</code> <code>TypeScript</code> <code>Vite</code> <code>Vitest</code> <code>Playwright</code> <code>Vercel</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <strong><a href="https://github.com/MykolaDotsenko/profit-website">PROFIT Website</a></strong> · <sub>pre-release</sub><br>
+      <sub>The public face of <a href="https://github.com/MykolaDotsenko/PROFIT">PROFIT</a>: explains to farmers, investors and partners how farm data turns into better economic decisions — and what evidence exists.</sub><br><br>
+      <sub><b>Why it is interesting:</b> “evidence before hype” is enforced in CI. Automated checks reject unsupported claims (“guaranteed profit”, “AI-powered”, “100% accurate”), validate the release evidence registry and localization, and no live URL is claimed until a real deployment passes every release gate.</sub><br><br>
+      <sub><code>Astro</code> <code>TypeScript</code> <code>Playwright</code> <code>GitHub Actions</code> <code>Vercel</code></sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
