@@ -11,9 +11,9 @@ Turku, Finland · open to relocation
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-dark.svg?v=20260929-agri3">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-light.svg?v=20260929-agri3">
-  <img alt="Mykola Dotsenko — I build trustworthy software for messy reality. Python/Django, React/Next.js, data and AI integrations, with an AgriTech perspective" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/profile-hero-light.svg?v=20260929-agri3" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/profile-hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/profile-hero-light.svg">
+  <img alt="Mykola Dotsenko — I build trustworthy software for messy reality. Python/Django, React/Next.js, data and AI integrations, with an AgriTech perspective" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/profile-hero-light.svg" width="100%">
 </picture>
 
 ## About
@@ -31,9 +31,9 @@ I use **AI where it earns its place**: model-assisted features connected to real
 I currently work as a **Software Developer at Techco / Bo in Finland**. Most of that code is private, so I focus here on the kind of engineering problems I work on rather than internal product details.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/production-flow-dark.svg?v=20260929-agri3">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/production-flow-light.svg?v=20260929-agri3">
-  <img alt="Production engineering flow: messy inputs through rules, state and evidence into clear interfaces and reliable workflows" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/production-flow-light.svg?v=20260929-agri3" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/production-flow-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/production-flow-light.svg">
+  <img alt="Production engineering flow: messy inputs through rules, state and evidence into clear interfaces and reliable workflows" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/production-flow-light.svg" width="100%">
 </picture>
 
 My production work has included **identity resolution, multi-source reconciliation, document synchronization, API integrations, retry-safe processing, source-of-truth rules, search optimization and incident investigation**.
@@ -76,9 +76,9 @@ Public side projects where the same engineering habits show up: handling stale d
 ## Stack
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/capability-map-dark.svg?v=20260929-agri3">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/capability-map-light.svg?v=20260929-agri3">
-  <img alt="Capability map: backend, frontend, data systems and AI integrations feeding into AgriTech decision software" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/capability-map-light.svg?v=20260929-agri3" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/capability-map-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/capability-map-light.svg">
+  <img alt="Capability map: backend, frontend, data systems and AI integrations feeding into AgriTech decision software" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/capability-map-light.svg" width="100%">
 </picture>
 
 | Area | Technologies |
@@ -99,9 +99,9 @@ C# · ASP.NET Core · Entity Framework Core · Angular · Node.js · SQL Server 
 </details>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/celtic-divider-dark.svg?v=20260929-agri3">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/celtic-divider-light.svg?v=20260929-agri3">
-  <img alt="Celtic knot divider with a triquetra and wheat ears" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/celtic-divider-light.svg?v=20260929-agri3" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/celtic-divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/celtic-divider-light.svg">
+  <img alt="Celtic knot divider with a triquetra and wheat ears" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/celtic-divider-light.svg" width="100%">
 </picture>
 
 ## From agriculture to software
@@ -160,9 +160,9 @@ I want financial and agronomic logic to stay deterministic and auditable. AI can
 ## Now & education
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/current-focus-dark.svg?v=20260929-agri3">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/current-focus-light.svg?v=20260929-agri3">
-  <img alt="Now: production software, MSc Software Engineering, AWS architecture / Solutions Architect Associate preparation and Finnish" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/current-focus-light.svg?v=20260929-agri3" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/current-focus-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/current-focus-light.svg">
+  <img alt="Now: production software, MSc Software Engineering, AWS architecture / Solutions Architect Associate preparation and Finnish" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/3e19f0f1ed7796cb737502e92b347ab5f32021be/assets/current-focus-light.svg" width="100%">
 </picture>
 
 - **MSc Software Engineering, NTU “KhPI”** — *in progress*

@@ -5,6 +5,11 @@ Visual language: fields, furrows, wheat and sprouts (agriculture) with a
 light touch of Irish Celtic ornament (triquetra, interlaced plait bands).
 
 Run from the repository root:  python3 scripts/build_assets.py
+
+README image URLs are pinned to the commit that contains the artwork
+(raw.githubusercontent.com/.../<commit>/assets/...), so GitHub's image cache
+can never serve an outdated version. After regenerating, commit the assets
+first, then point the README URLs at that commit.
 """
 
 from __future__ import annotations
