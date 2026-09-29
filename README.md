@@ -30,7 +30,7 @@ I use **AI where it earns its place**: model-assisted features connected to real
 
 ## Production engineering
 
-I currently work as a **Software Developer at Techco** in Finland (since May 2025), mainly building products for our client **Bo**. Most of that code is private, so here I describe the kinds of problems I solve rather than internal product details.
+I currently work as a **Software Developer at Techco** in Finland (since May 2025), mainly building the platform for our client **Bo LKV**, a real estate chain with 200+ agents and 16 offices. Most of that code is private, so here I describe the kinds of problems I solve rather than internal product details.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/9fb911074b902035c7bad605bb9190deca20b273/assets/production-flow-dark.svg">
@@ -38,7 +38,13 @@ I currently work as a **Software Developer at Techco** in Finland (since May 202
   <img alt="Production engineering flow: messy inputs through rules, state and evidence into clear interfaces and reliable workflows" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/9fb911074b902035c7bad605bb9190deca20b273/assets/production-flow-light.svg" width="100%">
 </picture>
 
+- **Property search ~85% faster** (3.5 s → 300 ms) through Django ORM optimization and caching.
+- **Four property data sources unified** into one normalized layer (Kivi, OviPro, Inmobalia, Resales).
+- **LLM response streaming (SSE) hardened in production**, with reconnect replay and crash recovery.
+
 My production work has included **identity resolution, multi-source reconciliation, document synchronization, API integrations, retry-safe processing, source-of-truth rules, search optimization and incident investigation**.
+
+Before Techco: Duotone, Nidos, BearIT (LearnIT programme) and Upwork client projects, since 2023.
 
 ## Stack
 
@@ -133,7 +139,7 @@ I want financial and agronomic logic to stay deterministic and auditable. AI can
 </picture>
 
 - **MSc Software Engineering, NTU “KhPI”** — *in progress*
-- **Master’s degree in Accounting & Auditing** — *completed*
+- **Master’s degree in Accounting & Auditing**, Mykolayiv National Agrarian University — *completed, 2012*
 - **Current learning:** AWS architecture / Solutions Architect Associate preparation · Finnish
 
 I am building my life and career in Finland while working, studying and learning the language.
