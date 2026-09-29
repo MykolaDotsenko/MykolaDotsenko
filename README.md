@@ -38,7 +38,7 @@ I currently work as a **Software Engineer at Techco** in Finland (since May 2025
   <img alt="Production engineering flow: messy inputs through rules, state and evidence into clear interfaces and reliable workflows" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/136e8adc6a02430f0f9e1a46be2f297a05064925/assets/production-flow-light.svg" width="100%">
 </picture>
 
-- **Property search ~85% faster** (3.5 s → 300 ms) through Django ORM optimization and caching.
+- **Property search from 3.5 s to ~300 ms** through Django ORM optimization and caching.
 - **Four property data sources unified** into one normalized layer (Kivi, OviPro, Inmobalia, Resales).
 - **LLM response streaming (SSE) hardened in production**, with reconnect replay and crash recovery.
 
@@ -59,7 +59,7 @@ Before Techco: Duotone, Nidos, BearIT (LearnIT programme) and Upwork client proj
 | **Backend** | Python · Django · DRF · Wagtail |
 | **Frontend** | TypeScript · React · Next.js · HTMX |
 | **Data systems** | PostgreSQL · SQL · ETL · reconciliation pipelines · synchronization · identity resolution · validation |
-| **AI & integrations** | APIs · AI-enabled flows · automation |
+| **AI & integrations** | REST APIs · LLM APIs · SSE streaming · automation |
 | **Quality & delivery** | pytest · Vitest · Playwright · Ruff · mypy · GitHub Actions · Docker |
 
 <details>
@@ -150,6 +150,8 @@ I am building my life and career in Finland while working, studying and learning
 
 Public side projects where the same engineering habits show up: handling stale data, explicit confidence levels, deterministic rules and failure states that stay visible.
 
+**Python/Django:** [DomoNest](https://github.com/MykolaDotsenko/domonest) (Django · Wagtail · PostgreSQL) · [Cultural Currency Converter](https://github.com/MykolaDotsenko/cultural-currency-converter) (Django · HTMX · PostgreSQL)
+
 <table>
   <tr>
     <td width="50%" valign="top">
@@ -174,7 +176,7 @@ Public side projects where the same engineering habits show up: handling stale d
     </td>
     <td width="50%" valign="top">
       <strong><a href="https://github.com/MykolaDotsenko/profit-website">PROFIT Website</a></strong> · <sub>pre-release</sub><br>
-      <sub>The public face of <a href="https://github.com/MykolaDotsenko/PROFIT">PROFIT</a>: explains to farmers, investors and partners how farm data turns into better economic decisions — and what evidence exists.</sub><br><br>
+      <sub>The public face of <a href="https://github.com/MykolaDotsenko/PROFIT">PROFIT</a>: explains to farmers and partners how farm data turns into better economic decisions — and what evidence exists.</sub><br><br>
       <sub><b>Why it is interesting:</b> “evidence before hype” is enforced in CI. Automated checks reject unsupported claims (“guaranteed profit”, “AI-powered”, “100% accurate”), validate the release evidence registry and localization, and no live URL is claimed until a real deployment passes every release gate.</sub><br><br>
       <sub><code>Astro</code> <code>TypeScript</code> <code>Playwright</code> <code>GitHub Actions</code> <code>Vercel</code></sub>
     </td>
