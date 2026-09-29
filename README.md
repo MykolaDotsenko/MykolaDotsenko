@@ -2,7 +2,7 @@
 
 # Mykola Dotsenko
 
-**Software Developer · Backend & Frontend · Data & AI Integrations · AgriTech**
+**Software Engineer · Backend & Frontend · Data & AI Integrations · AgriTech**
 
 **3 years of professional software development** · English B2+ · Finnish A2 · Ukrainian native
 
@@ -13,9 +13,9 @@ Turku, Finland · authorized to work in Finland · open to relocation
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/9fb911074b902035c7bad605bb9190deca20b273/assets/profile-hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/9fb911074b902035c7bad605bb9190deca20b273/assets/profile-hero-light.svg">
-  <img alt="Mykola Dotsenko — I build trustworthy software for messy reality. Python/Django, React/Next.js, data and AI integrations, with an AgriTech perspective" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/9fb911074b902035c7bad605bb9190deca20b273/assets/profile-hero-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/136e8adc6a02430f0f9e1a46be2f297a05064925/assets/profile-hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/136e8adc6a02430f0f9e1a46be2f297a05064925/assets/profile-hero-light.svg">
+  <img alt="Mykola Dotsenko — I build trustworthy software for messy reality. Python/Django, React/Next.js, data and AI integrations, with an AgriTech perspective" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/136e8adc6a02430f0f9e1a46be2f297a05064925/assets/profile-hero-light.svg" width="100%">
 </picture>
 
 ## About
@@ -30,12 +30,12 @@ I use **AI where it earns its place**: model-assisted features connected to real
 
 ## Production engineering
 
-I currently work as a **Software Developer at Techco** in Finland (since May 2025), mainly building the platform for our client **Bo LKV**, a real estate chain with 200+ agents and 16 offices. Most of that code is private, so here I describe the kinds of problems I solve rather than internal product details.
+I currently work as a **Software Engineer at Techco** in Finland (since May 2025), mainly building the platform for a real estate chain with 200+ agents and 16 offices. Most of that code is private, so here I describe the kinds of problems I solve rather than internal product details.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/9fb911074b902035c7bad605bb9190deca20b273/assets/production-flow-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/9fb911074b902035c7bad605bb9190deca20b273/assets/production-flow-light.svg">
-  <img alt="Production engineering flow: messy inputs through rules, state and evidence into clear interfaces and reliable workflows" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/9fb911074b902035c7bad605bb9190deca20b273/assets/production-flow-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/136e8adc6a02430f0f9e1a46be2f297a05064925/assets/production-flow-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/136e8adc6a02430f0f9e1a46be2f297a05064925/assets/production-flow-light.svg">
+  <img alt="Production engineering flow: messy inputs through rules, state and evidence into clear interfaces and reliable workflows" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/136e8adc6a02430f0f9e1a46be2f297a05064925/assets/production-flow-light.svg" width="100%">
 </picture>
 
 - **Property search ~85% faster** (3.5 s → 300 ms) through Django ORM optimization and caching.
@@ -49,9 +49,9 @@ Before Techco: Duotone, Nidos, BearIT (LearnIT programme) and Upwork client proj
 ## Stack
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/9fb911074b902035c7bad605bb9190deca20b273/assets/capability-map-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/9fb911074b902035c7bad605bb9190deca20b273/assets/capability-map-light.svg">
-  <img alt="Capability map: backend, frontend, data systems and AI integrations feeding into AgriTech decision software" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/9fb911074b902035c7bad605bb9190deca20b273/assets/capability-map-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/136e8adc6a02430f0f9e1a46be2f297a05064925/assets/capability-map-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/136e8adc6a02430f0f9e1a46be2f297a05064925/assets/capability-map-light.svg">
+  <img alt="Capability map: backend, frontend, data systems and AI integrations feeding into AgriTech decision software" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/136e8adc6a02430f0f9e1a46be2f297a05064925/assets/capability-map-light.svg" width="100%">
 </picture>
 
 | Area | Technologies |
@@ -72,9 +72,9 @@ C# · ASP.NET Core · Entity Framework Core · Angular · Node.js · SQL Server 
 </details>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/9fb911074b902035c7bad605bb9190deca20b273/assets/celtic-divider-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/9fb911074b902035c7bad605bb9190deca20b273/assets/celtic-divider-light.svg">
-  <img alt="Celtic knot divider with a triquetra and wheat ears" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/9fb911074b902035c7bad605bb9190deca20b273/assets/celtic-divider-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/136e8adc6a02430f0f9e1a46be2f297a05064925/assets/celtic-divider-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/136e8adc6a02430f0f9e1a46be2f297a05064925/assets/celtic-divider-light.svg">
+  <img alt="Celtic knot divider with a triquetra and wheat ears" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/136e8adc6a02430f0f9e1a46be2f297a05064925/assets/celtic-divider-light.svg" width="100%">
 </picture>
 
 ## From agriculture to software
@@ -133,13 +133,15 @@ I want financial and agronomic logic to stay deterministic and auditable. AI can
 ## Now & education
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/9fb911074b902035c7bad605bb9190deca20b273/assets/current-focus-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/9fb911074b902035c7bad605bb9190deca20b273/assets/current-focus-light.svg">
-  <img alt="Now: production software, MSc Software Engineering, AWS architecture / Solutions Architect Associate preparation and Finnish" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/9fb911074b902035c7bad605bb9190deca20b273/assets/current-focus-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/136e8adc6a02430f0f9e1a46be2f297a05064925/assets/current-focus-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/136e8adc6a02430f0f9e1a46be2f297a05064925/assets/current-focus-light.svg">
+  <img alt="Now: production software, MSc Software Engineering, AWS architecture / Solutions Architect Associate preparation and Finnish" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/136e8adc6a02430f0f9e1a46be2f297a05064925/assets/current-focus-light.svg" width="100%">
 </picture>
 
-- **MSc Software Engineering, NTU “KhPI”** — *in progress*
-- **Master’s degree in Accounting & Auditing**, Mykolayiv National Agrarian University — *completed, 2012*
+- **MSc Software Engineering** — National Technical University “Kharkiv Polytechnic Institute” — *in progress*
+- **CS50: Introduction to Computer Science** — Harvard University (edX) — 2024
+- **Junior Specialist in Agronomy** — Novy Buh Agrarian College — 2016–2019
+- **Master’s degree in Accounting & Auditing (with honors)** — Mykolayiv National Agrarian University — 2007–2012
 - **Current learning:** AWS architecture / Solutions Architect Associate preparation · Finnish
 
 I am building my life and career in Finland while working, studying and learning the language.
