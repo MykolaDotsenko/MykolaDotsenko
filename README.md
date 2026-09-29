@@ -30,24 +30,13 @@ I also work with **AI-enabled application flows and API integrations**. I like A
 
 ## Production engineering
 
-I currently work as a **Software Developer at Techco / Bo in Finland**. Most of that code is private, so here I focus on the parts I can share.
+I currently work as a **Software Developer at Techco / Bo in Finland**. Most of that code is private, so I focus here on the kind of engineering problems I work on rather than internal product details.
 
-<table>
-  <tr>
-    <td width="33%" align="center">
-      <strong>~200k records</strong><br>
-      <sub>CRM/contact reconciliation across Kivi, OviPro and HubSpot</sub>
-    </td>
-    <td width="33%" align="center">
-      <strong>3.5s → ~300ms</strong><br>
-      <sub>one key search path after backend/query optimization</sub>
-    </td>
-    <td width="33%" align="center">
-      <strong>~1,600 duplicates</strong><br>
-      <sub>resolved while tightening ingestion rules</sub>
-    </td>
-  </tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/production-flow-dark.svg?v=20260929c">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/production-flow-light.svg?v=20260929c">
+  <img alt="Production engineering flow: messy inputs through rules, state and evidence into clear interfaces and reliable workflows" src="https://raw.githubusercontent.com/MykolaDotsenko/MykolaDotsenko/main/assets/production-flow-light.svg?v=20260929c" width="100%">
+</picture>
 
 My production work has included **identity resolution, multi-source reconciliation, document synchronization, API integrations, retry-safe processing, source-of-truth rules, search optimization and incident investigation**.
 
