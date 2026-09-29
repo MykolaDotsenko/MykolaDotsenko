@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">Mykola Dotsenko — Software Engineer</title>
-  <desc id="desc">Nordic editorial banner showing a path from data through backend and frontend to real-world action, blending into agricultural field contours.</desc>
+  <desc id="desc">Nordic editorial banner highlighting backend, frontend, data, AI integrations and AgriTech.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0C1116"/>
@@ -13,9 +13,9 @@
       <stop offset="1" stop-color="#0D1117" stop-opacity="0"/>
     </radialGradient>
     <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#76966A" stop-opacity=".28"/>
-      <stop offset=".35" stop-color="#9EB78E"/>
-      <stop offset=".72" stop-color="#B7D0A7"/>
+      <stop offset="0" stop-color="#76966A" stop-opacity=".35"/>
+      <stop offset=".32" stop-color="#9EB78E"/>
+      <stop offset=".68" stop-color="#B7D0A7"/>
       <stop offset="1" stop-color="#C7DDBA"/>
     </linearGradient>
     <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
@@ -32,7 +32,7 @@
   <rect x="18.5" y="18.5" width="1163" height="323" rx="27.5" fill="none" stroke="#27332A"/>
 
   <g clip-path="url(#cardClip)">
-    <rect x="608" y="-30" width="652" height="440" fill="url(#fieldGlow)"/>
+    <rect x="604" y="-30" width="660" height="440" fill="url(#fieldGlow)"/>
 
     <g stroke="#263029" stroke-width="1" opacity=".84">
       <path d="M52 72H1148M52 132H1148M52 192H1148M52 252H1148M52 312H1148"/>
@@ -47,29 +47,31 @@
       <path d="M845 340C882 316 921 295 958 267C996 239 1027 208 1055 177C1090 138 1125 119 1172 113"/>
     </g>
 
-    <g opacity=".95">
-      <path d="M690 95H1094" stroke="#52644D" stroke-width="2"/>
-      <circle cx="714" cy="95" r="4.5" fill="#9EB78E"/>
-      <circle cx="820" cy="95" r="4.5" fill="#9EB78E"/>
-      <circle cx="936" cy="95" r="4.5" fill="#B7D0A7"/>
-      <circle cx="1055" cy="95" r="4.5" fill="#C7DDBA"/>
-      <text x="695" y="77" fill="#81917B" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10" letter-spacing="1.4">DATA</text>
-      <text x="788" y="77" fill="#81917B" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10" letter-spacing="1.4">BACKEND</text>
-      <text x="899" y="77" fill="#94A88A" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10" letter-spacing="1.4">FRONTEND</text>
-      <text x="1026" y="77" fill="#A9BE9E" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10" letter-spacing="1.4">ACTION</text>
+    <g opacity=".96">
+      <path d="M678 96H1110" stroke="#52644D" stroke-width="2"/>
+      <circle cx="700" cy="96" r="4.4" fill="#9EB78E"/>
+      <circle cx="790" cy="96" r="4.4" fill="#9EB78E"/>
+      <circle cx="885" cy="96" r="4.4" fill="#B7D0A7"/>
+      <circle cx="968" cy="96" r="4.4" fill="#B7D0A7"/>
+      <circle cx="1064" cy="96" r="4.4" fill="#C7DDBA"/>
+      <text x="675" y="77" fill="#81917B" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="9.5" letter-spacing="1.15">BACKEND</text>
+      <text x="760" y="77" fill="#81917B" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="9.5" letter-spacing="1.15">FRONTEND</text>
+      <text x="866" y="77" fill="#94A88A" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="9.5" letter-spacing="1.15">DATA</text>
+      <text x="951" y="77" fill="#9DB293" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="9.5" letter-spacing="1.15">AI</text>
+      <text x="1027" y="77" fill="#A9BE9E" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="9.5" letter-spacing="1.15">AGRITECH</text>
     </g>
 
-    <path d="M690 95C756 118 788 151 827 179C868 208 906 210 948 187C989 164 1018 126 1055 110C1083 98 1110 102 1137 120" fill="none" stroke="url(#signal)" stroke-width="3.1" stroke-linecap="round"/>
-    <circle cx="827" cy="179" r="4.8" fill="#A8C59A"/>
-    <circle cx="948" cy="187" r="5.8" fill="#BBD5AD" filter="url(#nodeGlow)">
+    <path d="M678 96C744 116 777 149 820 177C861 204 904 208 946 186C987 164 1017 128 1058 112C1085 102 1110 106 1138 122" fill="none" stroke="url(#signal)" stroke-width="3.1" stroke-linecap="round"/>
+    <circle cx="820" cy="177" r="4.8" fill="#A8C59A"/>
+    <circle cx="946" cy="186" r="5.8" fill="#BBD5AD" filter="url(#nodeGlow)">
       <animate attributeName="r" values="4.9;7.1;4.9" dur="3.2s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values=".72;1;.72" dur="3.2s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="1055" cy="110" r="4.8" fill="#C7DDBA"/>
+    <circle cx="1058" cy="112" r="4.8" fill="#C7DDBA"/>
 
-    <rect x="703" y="239" width="285" height="61" rx="14" fill="#111A13" fill-opacity=".9" stroke="#354433"/>
-    <text x="722" y="262" fill="#83967B" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10.5" letter-spacing="1.5">ENGINEERING SIGNAL</text>
-    <text x="722" y="285" fill="#D7E2D1" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="14.5" font-weight="650">reliable state → clear interface</text>
+    <rect x="704" y="238" width="300" height="62" rx="14" fill="#111A13" fill-opacity=".9" stroke="#354433"/>
+    <text x="722" y="261" fill="#83967B" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10.5" letter-spacing="1.5">ENGINEERING SIGNAL</text>
+    <text x="722" y="285" fill="#D7E2D1" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="14.5" font-weight="650">reliable systems → useful decisions</text>
 
     <text x="72" y="86" fill="#9EB78E" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="15.5" font-weight="750" letter-spacing="3.4">SOFTWARE ENGINEER · FINLAND</text>
 
@@ -78,7 +80,7 @@
       <tspan x="72" dy="46">for messy reality.</tspan>
     </text>
 
-    <text x="72" y="260" fill="#C1C9CE" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="19">Python / Django · React / Next.js · Data &amp; Integrations</text>
-    <text x="72" y="300" fill="#909C93" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="16.5">backend depth · frontend delivery · AgriTech perspective</text>
+    <text x="72" y="260" fill="#C1C9CE" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="18.5">Python / Django · React / Next.js · Data · AI Integrations</text>
+    <text x="72" y="300" fill="#909C93" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif" font-size="16.3">backend depth · frontend delivery · AgriTech perspective</text>
   </g>
 </svg>
